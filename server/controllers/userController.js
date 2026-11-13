@@ -5,9 +5,11 @@ const User = require('../models/User');
 // @access  Private (Needs token)
 const getProfile = async (req, res) => {
     try {
-        // req.user comes from the auth middleware
-        // Auth middleware ne verify karke req.user me daal diya tha
-        res.json(req.user);
+        const user = await User.findById(req.user._id || req.user.id).select('-password');
+        if (!user) {
+            return res.status(404).json({ message: 'User not found' });
+        }
+        res.json(user);
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
@@ -18,42 +20,51 @@ const getProfile = async (req, res) => {
 // @access  Private
 const updateProfile = async (req, res) => {
     try {
-        // Find user by the logged in user ID
-        const user = await User.findById(req.user.id);
+        const user = await User.findById(req.user._id || req.user.id);
 
-        if (user) {
-            // Update fields if provided, otherwise keep the old one
-            // Agar nayi value aayi hai toh update karo, warna purani rehne do
-            user.name = req.body.name || user.name;
-            user.bio = req.body.bio || user.bio;
-            user.avatar = req.body.avatar || user.avatar;
-            user.location = req.body.location || user.location;
-            
-            // For freelancers
-            if (req.body.skills) user.skills = req.body.skills;
-            if (req.body.hourlyRate) user.hourlyRate = req.body.hourlyRate;
-            
-            // For clients
-            if (req.body.company) user.company = req.body.company;
-
-            // Save the updated user
-            const updatedUser = await user.save();
-
-            // Send back the updated details without password
-            res.json({
-                _id: updatedUser._id,
-                name: updatedUser.name,
-                email: updatedUser.email,
-                role: updatedUser.role,
-                bio: updatedUser.bio,
-                skills: updatedUser.skills,
-                hourlyRate: updatedUser.hourlyRate,
-                company: updatedUser.company,
-                location: updatedUser.location
-            });
-        } else {
-            res.status(404).json({ message: 'User not found' });
+        if (!user) {
+            return res.status(404).json({ message: 'User not found' });
         }
+
+        // Update basic fields
+        if (req.body.name) user.name = req.body.name;
+        if (req.body.bio !== undefined) user.bio = req.body.bio;
+        if (req.body.avatar !== undefined) user.avatar = req.body.avatar;
+        if (req.body.location !== undefined) user.location = req.body.location;
+
+        // For freelancers
+        if (req.body.skills !== undefined) {
+            if (typeof req.body.skills === 'string') {
+                user.skills = req.body.skills.split(',').map(s => s.trim()).filter(Boolean);
+            } else if (Array.isArray(req.body.skills)) {
+                user.skills = req.body.skills;
+            }
+        }
+        if (req.body.hourlyRate !== undefined) {
+            user.hourlyRate = Number(req.body.hourlyRate) || 0;
+        }
+
+        // For clients
+        if (req.body.company !== undefined) {
+            user.company = req.body.company;
+        }
+
+        const updatedUser = await user.save();
+
+        res.json({
+            _id: updatedUser._id,
+            name: updatedUser.name,
+            email: updatedUser.email,
+            role: updatedUser.role,
+            avatar: updatedUser.avatar || '',
+            bio: updatedUser.bio || '',
+            skills: updatedUser.skills || [],
+            hourlyRate: updatedUser.hourlyRate || 0,
+            company: updatedUser.company || '',
+            location: updatedUser.location || '',
+            rating: updatedUser.rating || 0,
+            totalReviews: updatedUser.totalReviews || 0
+        });
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
@@ -64,8 +75,6 @@ const updateProfile = async (req, res) => {
 // @access  Public
 const getUserById = async (req, res) => {
     try {
-        // Find user by ID from URL params and don't show password
-        // Password ko hide kar do (-password)
         const user = await User.findById(req.params.id).select('-password');
 
         if (user) {

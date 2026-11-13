@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { createJob, getAllJobs, getJobById, updateJob, deleteJob, getMyJobs } = require('../controllers/jobController');
+const { createJob, getAllJobs, getJobById, updateJob, deleteJob, getMyJobs, completeJob } = require('../controllers/jobController');
 const { protect } = require('../middleware/auth');
 
 // Job se related saare routes
@@ -19,6 +19,9 @@ router.post('/', protect, createJob);
 
 // PUT /api/jobs/:id -> Update job (needs login)
 router.put('/:id', protect, updateJob);
+
+// PUT /api/jobs/:id/complete -> Mark job as completed
+router.put('/:id/complete', protect, completeJob);
 
 // DELETE /api/jobs/:id -> Delete job (needs login)
 router.delete('/:id', protect, deleteJob);

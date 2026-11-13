@@ -3,6 +3,12 @@ const router = express.Router();
 const { getProfile, updateProfile, getUserById } = require('../controllers/userController');
 const { protect } = require('../middleware/auth');
 
+const { registerUser, loginUser } = require('../controllers/authController');
+
+// Auth routes aliases for client compatibility
+router.post('/register', registerUser);
+router.post('/login', loginUser);
+
 // Profile manage karne ke routes
 // 'protect' ka matlab hai ki login (token) zaroori hai is route ke liye
 

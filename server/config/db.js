@@ -1,21 +1,24 @@
-// Import mongoose to connect to MongoDB
 const mongoose = require('mongoose');
 
-// This function connects our app to the database
-// Database se connect karne ke liye function
+// Connect to MongoDB database
 const connectDB = async () => {
+    const uri = process.env.MONGO_URI || 'mongodb://localhost:27017/freelance-app';
     try {
-        // Mongoose ko MongoDB URI pass karte hain connect karne ke liye
-        const conn = await mongoose.connect(process.env.MONGO_URI, {
+        const conn = await mongoose.connect(uri, {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
 
-        console.log(`MongoDB Connected: ${conn.connection.host}`);
+        console.log(`[Database] MongoDB Connected: ${conn.connection.host}`);
     } catch (error) {
-        // Agar connection fail ho jaye toh error dikhao
-        console.error(`Error: ${error.message}`);
-        process.exit(1); // Exit process with failure
+        console.error('\n===============================================================');
+        console.error(`[MongoDB Connection Notice]: ${error.message}`);
+        console.error(`URI attempted: ${uri}`);
+        console.error('If MongoDB is installed locally, start it via:');
+        console.error('  net start MongoDB  (or run mongod.exe)');
+        console.error('Or use a free cloud MongoDB Atlas cluster URI in server/.env:');
+        console.error('  MONGO_URI=mongodb+srv://<user>:<pwd>@cluster.mongodb.net/freelance-app');
+        console.error('===============================================================\n');
     }
 };
 

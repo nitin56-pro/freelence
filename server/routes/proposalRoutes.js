@@ -5,7 +5,8 @@ const {
     getProposalsForJob, 
     getMyProposals, 
     acceptProposal, 
-    rejectProposal 
+    rejectProposal,
+    updateProposalStatus
 } = require('../controllers/proposalController');
 const { protect } = require('../middleware/auth');
 
@@ -19,6 +20,9 @@ router.get('/my-proposals', protect, getMyProposals);
 
 // GET /api/proposals/job/:jobId -> Client sees proposals for a job
 router.get('/job/:jobId', protect, getProposalsForJob);
+
+// PUT /api/proposals/:id/status -> Unified status updater (accept / reject)
+router.put('/:id/status', protect, updateProposalStatus);
 
 // PUT /api/proposals/:id/accept -> Client accepts proposal
 router.put('/:id/accept', protect, acceptProposal);

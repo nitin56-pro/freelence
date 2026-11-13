@@ -38,10 +38,18 @@ const registerUser = async (req, res) => {
         if (user) {
             // Return user details and a token
             res.status(201).json({
-                _id: user.id,
+                _id: user._id,
                 name: user.name,
                 email: user.email,
                 role: user.role,
+                avatar: user.avatar || '',
+                bio: user.bio || '',
+                skills: user.skills || [],
+                hourlyRate: user.hourlyRate || 0,
+                company: user.company || '',
+                location: user.location || '',
+                rating: user.rating || 0,
+                totalReviews: user.totalReviews || 0,
                 token: generateToken(user._id)
             });
         } else {
@@ -59,6 +67,10 @@ const loginUser = async (req, res) => {
     try {
         const { email, password } = req.body;
 
+        if (!email || !password) {
+            return res.status(400).json({ message: 'Please provide email and password' });
+        }
+
         // Find user by email
         // Email se database me user search karo
         const user = await User.findOne({ email });
@@ -67,10 +79,18 @@ const loginUser = async (req, res) => {
         // User mil gaya aur password match ho gaya
         if (user && (await bcrypt.compare(password, user.password))) {
             res.json({
-                _id: user.id,
+                _id: user._id,
                 name: user.name,
                 email: user.email,
                 role: user.role,
+                avatar: user.avatar || '',
+                bio: user.bio || '',
+                skills: user.skills || [],
+                hourlyRate: user.hourlyRate || 0,
+                company: user.company || '',
+                location: user.location || '',
+                rating: user.rating || 0,
+                totalReviews: user.totalReviews || 0,
                 token: generateToken(user._id)
             });
         } else {

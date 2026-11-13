@@ -3,17 +3,17 @@ import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
 import api from '../utils/api';
 import toast from 'react-hot-toast';
+import { FaBriefcase, FaDollarSign, FaCalendarAlt, FaTags } from 'react-icons/fa';
 
 const PostJob = () => {
   const { user } = useContext(AuthContext);
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
 
-  // Form state
   const [formData, setFormData] = useState({
     title: '',
     description: '',
-    category: 'Web Development', // default
+    category: 'Web Development',
     skills: '',
     budgetMin: '',
     budgetMax: '',
@@ -29,150 +29,206 @@ const PostJob = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setLoading(true);
 
+    const minB = Number(formData.budgetMin);
+    const maxB = Number(formData.budgetMax);
+    if (maxB < minB) {
+      toast.error('Maximum budget must be greater than or equal to minimum budget.');
+      return;
+    }
+
+    setLoading(true);
     try {
+      const skillsArray = formData.skills
+        .split(',')
+        .map((s) => s.trim())
+        .filter(Boolean);
+
       await api.post('/jobs', {
-        ...formData,
-        budgetMin: Number(formData.budgetMin),
-        budgetMax: Number(formData.budgetMax)
+        title: formData.title,
+        description: formData.description,
+        category: formData.category,
+        skillsRequired: skillsArray,
+        budgetMin: minB,
+        budgetMax: maxB,
+        deadline: formData.deadline
       });
-      toast.success('Job posted successfully!');
-      navigate('/dashboard'); // Redirect to dashboard
+
+      toast.success('Project published successfully!');
+      navigate('/dashboard');
     } catch (error) {
-      toast.error(error.response?.data?.message || 'Failed to post job');
+      toast.error(error.response?.data?.message || 'Failed to publish project');
     } finally {
       setLoading(false);
     }
   };
 
-  // Only clients can post jobs
   if (user?.role !== 'client') {
     return (
-      <div className="container mx-auto p-8 text-center">
-        <h2 className="text-2xl font-bold text-red-600">Access Denied</h2>
-        <p className="mt-2 text-gray-600">Only clients can post jobs.</p>
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">
+        <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-200 text-center max-w-md">
+          <h2 className="text-2xl font-bold text-red-600 mb-2">Access Restricted</h2>
+          <p className="text-gray-600 text-sm">
+            Only registered Client accounts can post new projects. You are currently logged in as a <span className="font-bold capitalize">{user?.role}</span>.
+          </p>
+        </div>
       </div>
     );
   }
 
   return (
-    <div className="container mx-auto px-4 py-8 max-w-3xl">
-      <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6 md:p-8">
-        <h1 className="text-3xl font-bold text-gray-800 mb-6 border-b pb-4">Post a New Job</h1>
-        
-        <form onSubmit={handleSubmit} className="space-y-6">
-          {/* Job Title */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Job Title</label>
-            <input
-              type="text"
-              name="title"
-              required
-              className="w-full px-4 py-2 border border-gray-300 rounded focus:ring-blue-500 focus:border-blue-500"
-              placeholder="e.g. Build an E-commerce Website"
-              value={formData.title}
-              onChange={handleChange}
-            />
+    <div className="bg-gray-50 min-h-screen py-10">
+      <div className="container mx-auto px-4 max-w-3xl">
+        <div className="bg-white rounded-2xl shadow-xs border border-gray-200 p-6 sm:p-10">
+          <div className="border-b border-gray-100 pb-6 mb-8">
+            <span className="text-xs font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-3 py-1 rounded-full">
+              Client Portal
+            </span>
+            <h1 className="text-3xl font-black text-gray-900 mt-3 flex items-center gap-3">
+              <FaBriefcase className="text-blue-600 text-2xl" />
+              <span>Post a New Project</span>
+            </h1>
+            <p className="text-gray-500 text-sm mt-1">
+              Provide clear specifications and budget range to attract top freelance talent.
+            </p>
           </div>
 
-          {/* Category */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Category</label>
-            <select
-              name="category"
-              className="w-full px-4 py-2 border border-gray-300 rounded focus:ring-blue-500 focus:border-blue-500"
-              value={formData.category}
-              onChange={handleChange}
-            >
-              <option value="Web Development">Web Development</option>
-              <option value="Mobile App">Mobile App</option>
-              <option value="Design">Design</option>
-              <option value="Writing">Writing</option>
-              <option value="Other">Other</option>
-            </select>
-          </div>
-
-          {/* Description */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Job Description</label>
-            <textarea
-              name="description"
-              required
-              rows="6"
-              className="w-full px-4 py-2 border border-gray-300 rounded focus:ring-blue-500 focus:border-blue-500"
-              placeholder="Describe the project requirements in detail..."
-              value={formData.description}
-              onChange={handleChange}
-            ></textarea>
-          </div>
-
-          {/* Skills */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Required Skills (Comma separated)</label>
-            <input
-              type="text"
-              name="skills"
-              required
-              className="w-full px-4 py-2 border border-gray-300 rounded focus:ring-blue-500 focus:border-blue-500"
-              placeholder="e.g. React, Node.js, MongoDB"
-              value={formData.skills}
-              onChange={handleChange}
-            />
-          </div>
-
-          {/* Budget */}
-          <div className="grid grid-cols-2 gap-4">
+          <form onSubmit={handleSubmit} className="space-y-6">
+            {/* Title */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Min Budget ($)</label>
+              <label className="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2">
+                Project Title
+              </label>
               <input
-                type="number"
-                name="budgetMin"
+                type="text"
+                name="title"
                 required
-                min="5"
-                className="w-full px-4 py-2 border border-gray-300 rounded focus:ring-blue-500 focus:border-blue-500"
-                value={formData.budgetMin}
+                className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl text-sm focus:ring-2 focus:ring-blue-500 focus:bg-white transition"
+                placeholder="e.g. Build a Full-Stack SaaS Analytics Dashboard with MERN"
+                value={formData.title}
                 onChange={handleChange}
               />
             </div>
+
+            {/* Category & Deadline */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+              <div>
+                <label className="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2">
+                  Category
+                </label>
+                <select
+                  name="category"
+                  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl text-sm focus:ring-2 focus:ring-blue-500 focus:bg-white transition text-gray-800"
+                  value={formData.category}
+                  onChange={handleChange}
+                >
+                  <option value="Web Development">Web Development</option>
+                  <option value="Mobile App">Mobile App</option>
+                  <option value="Design">Design</option>
+                  <option value="Writing">Writing</option>
+                  <option value="DevOps & Cloud">DevOps & Cloud</option>
+                  <option value="AI & Data Science">AI & Data Science</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+
+              <div>
+                <label className="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2 flex items-center gap-1.5">
+                  <FaCalendarAlt className="text-gray-400" />
+                  <span>Target Deadline</span>
+                </label>
+                <input
+                  type="date"
+                  name="deadline"
+                  required
+                  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl text-sm focus:ring-2 focus:ring-blue-500 focus:bg-white transition text-gray-800"
+                  value={formData.deadline}
+                  onChange={handleChange}
+                />
+              </div>
+            </div>
+
+            {/* Description */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Max Budget ($)</label>
-              <input
-                type="number"
-                name="budgetMax"
+              <label className="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2">
+                Detailed Requirements
+              </label>
+              <textarea
+                name="description"
                 required
-                min="5"
-                className="w-full px-4 py-2 border border-gray-300 rounded focus:ring-blue-500 focus:border-blue-500"
-                value={formData.budgetMax}
+                rows="6"
+                className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl text-sm focus:ring-2 focus:ring-blue-500 focus:bg-white transition"
+                placeholder="Describe project scope, key deliverables, expected API integrations, and milestone expectations..."
+                value={formData.description}
+                onChange={handleChange}
+              ></textarea>
+            </div>
+
+            {/* Skills */}
+            <div>
+              <label className="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2 flex items-center gap-1.5">
+                <FaTags className="text-gray-400" />
+                <span>Required Skills (Comma separated)</span>
+              </label>
+              <input
+                type="text"
+                name="skills"
+                required
+                className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl text-sm focus:ring-2 focus:ring-blue-500 focus:bg-white transition"
+                placeholder="e.g. React, Node.js, MongoDB, TailwindCSS"
+                value={formData.skills}
                 onChange={handleChange}
               />
             </div>
-          </div>
 
-          {/* Deadline */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Deadline Date</label>
-            <input
-              type="date"
-              name="deadline"
-              required
-              className="w-full px-4 py-2 border border-gray-300 rounded focus:ring-blue-500 focus:border-blue-500"
-              value={formData.deadline}
-              onChange={handleChange}
-            />
-          </div>
+            {/* Budget */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+              <div>
+                <label className="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2 flex items-center gap-1">
+                  <FaDollarSign className="text-emerald-600" />
+                  <span>Minimum Budget ($)</span>
+                </label>
+                <input
+                  type="number"
+                  name="budgetMin"
+                  required
+                  min="5"
+                  placeholder="e.g. 300"
+                  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl text-sm focus:ring-2 focus:ring-blue-500 focus:bg-white transition"
+                  value={formData.budgetMin}
+                  onChange={handleChange}
+                />
+              </div>
 
-          {/* Submit Button */}
-          <div className="pt-4">
-            <button
-              type="submit"
-              disabled={loading}
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded transition disabled:bg-blue-300"
-            >
-              {loading ? 'Posting...' : 'Post Job'}
-            </button>
-          </div>
-        </form>
+              <div>
+                <label className="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2 flex items-center gap-1">
+                  <FaDollarSign className="text-emerald-600" />
+                  <span>Maximum Budget ($)</span>
+                </label>
+                <input
+                  type="number"
+                  name="budgetMax"
+                  required
+                  min="5"
+                  placeholder="e.g. 800"
+                  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl text-sm focus:ring-2 focus:ring-blue-500 focus:bg-white transition"
+                  value={formData.budgetMax}
+                  onChange={handleChange}
+                />
+              </div>
+            </div>
+
+            <div className="pt-4">
+              <button
+                type="submit"
+                disabled={loading}
+                className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 px-6 rounded-xl shadow-md transition disabled:bg-blue-300 text-base"
+              >
+                {loading ? 'Publishing Project...' : 'Publish Project Now'}
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   );

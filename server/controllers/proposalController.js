@@ -6,20 +6,24 @@ const Job = require('../models/Job');
 // @access  Private (Freelancer only)
 const submitProposal = async (req, res) => {
     try {
-        // Sirf freelancer hi proposal bhej sakta hai
         if (req.user.role !== 'freelancer') {
             return res.status(403).json({ message: 'Only freelancers can submit proposals' });
         }
 
-        const { job: jobId, coverLetter, proposedBudget, deliveryDays } = req.body;
+        const jobId = req.body.job || req.body.jobId;
+        const proposedBudget = req.body.proposedBudget !== undefined ? req.body.proposedBudget : req.body.budget;
+        const { coverLetter, deliveryDays } = req.body;
+
+        if (!jobId || !coverLetter || proposedBudget === undefined || deliveryDays === undefined) {
+            return res.status(400).json({ message: 'Please provide all proposal fields' });
+        }
 
         // Check if job exists and is open
         const job = await Job.findById(jobId);
         if (!job) return res.status(404).json({ message: 'Job not found' });
-        if (job.status !== 'open') return res.status(400).json({ message: 'This job is not open for proposals' });
+        if (job.status !== 'open') return res.status(400).json({ message: 'This job is no longer accepting proposals' });
 
         // Check if user already submitted a proposal for this job
-        // Ek freelancer ek job pe ek hi proposal bhej sakta hai
         const alreadySubmitted = await Proposal.findOne({
             job: jobId,
             freelancer: req.user.id
@@ -34,8 +38,8 @@ const submitProposal = async (req, res) => {
             job: jobId,
             freelancer: req.user.id,
             coverLetter,
-            proposedBudget,
-            deliveryDays
+            proposedBudget: Number(proposedBudget),
+            deliveryDays: Number(deliveryDays)
         });
 
         const createdProposal = await proposal.save();
@@ -48,7 +52,7 @@ const submitProposal = async (req, res) => {
 
 // @desc    Get all proposals for a specific job
 // @route   GET /api/proposals/job/:jobId
-// @access  Private (Only Job Owner)
+// @access  Private (Only Job Owner or Admin)
 const getProposalsForJob = async (req, res) => {
     try {
         const jobId = req.params.jobId;
@@ -56,14 +60,15 @@ const getProposalsForJob = async (req, res) => {
 
         if (!job) return res.status(404).json({ message: 'Job not found' });
 
-        // Check if logged in user is the owner of the job
-        // Sirf client jisne job post ki hai wahi proposals dekh sakta hai
-        if (job.client.toString() !== req.user.id) {
+        if (job.client.toString() !== req.user.id && req.user.role !== 'admin') {
             return res.status(401).json({ message: 'Not authorized to see proposals for this job' });
         }
 
         // Fetch proposals and populate freelancer details
-        const proposals = await Proposal.find({ job: jobId }).populate('freelancer', 'name email skills rating');
+        const proposals = await Proposal.find({ job: jobId })
+            .populate('freelancer', 'name email skills hourlyRate rating totalReviews avatar bio location')
+            .sort({ createdAt: -1 });
+
         res.json(proposals);
 
     } catch (error) {
@@ -76,12 +81,19 @@ const getProposalsForJob = async (req, res) => {
 // @access  Private (Freelancer only)
 const getMyProposals = async (req, res) => {
     try {
-        if (req.user.role !== 'freelancer') {
-            return res.status(403).json({ message: 'Only freelancers have their own proposals' });
+        if (req.user.role !== 'freelancer' && req.user.role !== 'admin') {
+            return res.status(403).json({ message: 'Only freelancers can view submitted proposals' });
         }
 
         // Find all proposals submitted by this freelancer
-        const proposals = await Proposal.find({ freelancer: req.user.id }).populate('job', 'title status');
+        const proposals = await Proposal.find({ freelancer: req.user.id })
+            .populate({
+                path: 'job',
+                select: 'title status budgetMin budgetMax category client deadline',
+                populate: { path: 'client', select: 'name company avatar' }
+            })
+            .sort({ createdAt: -1 });
+
         res.json(proposals);
 
     } catch (error) {
@@ -98,30 +110,25 @@ const acceptProposal = async (req, res) => {
 
         if (!proposal) return res.status(404).json({ message: 'Proposal not found' });
 
-        // Check if the current user is the owner of the job
-        if (proposal.job.client.toString() !== req.user.id) {
-            return res.status(401).json({ message: 'Not authorized' });
+        if (proposal.job.client.toString() !== req.user.id && req.user.role !== 'admin') {
+            return res.status(401).json({ message: 'Not authorized to accept this proposal' });
         }
 
-        // Update proposal status
-        // Proposal ko 'accepted' mark kar do
         proposal.status = 'accepted';
         await proposal.save();
 
         // Update Job status to 'in-progress'
-        // Job status ko 'in-progress' kar do kyunki kaam start ho gaya
         const job = await Job.findById(proposal.job._id);
         job.status = 'in-progress';
         await job.save();
 
-        // Optional: Reject all other proposals for this job
-        // Baaki saare proposals ko 'rejected' mark kardo
+        // Reject other proposals for this job
         await Proposal.updateMany(
             { job: job._id, _id: { $ne: proposal._id } },
             { $set: { status: 'rejected' } }
         );
 
-        res.json({ message: 'Proposal accepted', proposal });
+        res.json({ message: 'Proposal accepted successfully', proposal });
 
     } catch (error) {
         res.status(500).json({ message: error.message });
@@ -137,9 +144,8 @@ const rejectProposal = async (req, res) => {
 
         if (!proposal) return res.status(404).json({ message: 'Proposal not found' });
 
-        // Check if the current user is the owner of the job
-        if (proposal.job.client.toString() !== req.user.id) {
-            return res.status(401).json({ message: 'Not authorized' });
+        if (proposal.job.client.toString() !== req.user.id && req.user.role !== 'admin') {
+            return res.status(401).json({ message: 'Not authorized to reject this proposal' });
         }
 
         proposal.status = 'rejected';
@@ -152,10 +158,29 @@ const rejectProposal = async (req, res) => {
     }
 };
 
+// @desc    Update proposal status (Unified endpoint for frontend compatibility)
+// @route   PUT /api/proposals/:id/status
+// @access  Private (Client only)
+const updateProposalStatus = async (req, res) => {
+    try {
+        const { status } = req.body;
+        if (status === 'accepted') {
+            return acceptProposal(req, res);
+        } else if (status === 'rejected') {
+            return rejectProposal(req, res);
+        } else {
+            return res.status(400).json({ message: 'Invalid status. Must be accepted or rejected' });
+        }
+    } catch (error) {
+        res.status(500).json({ message: error.message });
+    }
+};
+
 module.exports = {
     submitProposal,
     getProposalsForJob,
     getMyProposals,
     acceptProposal,
-    rejectProposal
+    rejectProposal,
+    updateProposalStatus
 };
