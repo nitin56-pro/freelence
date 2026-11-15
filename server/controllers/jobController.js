@@ -189,6 +189,7 @@ const getMyJobs = async (req, res) => {
         }
 
         const jobs = await Job.find({ client: req.user.id })
+            .populate('client', 'name email avatar company rating totalReviews')
             .sort({ createdAt: -1 });
 
         // Add proposals count for each job

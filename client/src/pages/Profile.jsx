@@ -25,7 +25,7 @@ const Profile = () => {
         // Pre-fill form data
         setFormData({
           bio: res.data.bio || '',
-          skills: res.data.skills || '',
+          skills: Array.isArray(res.data.skills) ? res.data.skills.join(', ') : (res.data.skills || ''),
           hourlyRate: res.data.hourlyRate || '',
           location: res.data.location || ''
         });
@@ -151,7 +151,7 @@ const Profile = () => {
                   <div>
                     <h3 className="text-sm font-semibold text-gray-500 uppercase">Skills</h3>
                     <div className="mt-2 flex flex-wrap gap-2">
-                      {profile.skills ? profile.skills.split(',').map((skill, i) => (
+                      {profile.skills ? (Array.isArray(profile.skills) ? profile.skills : profile.skills.split(',')).map((skill, i) => (
                         <span key={i} className="bg-gray-100 px-2 py-1 rounded text-sm text-gray-700 border">
                           {skill.trim()}
                         </span>

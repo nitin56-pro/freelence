@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
 import api from '../utils/api';
 import toast from 'react-hot-toast';
+import JobCard from '../components/JobCard';
 
 const Dashboard = () => {
   const { user } = useContext(AuthContext);
@@ -23,7 +24,6 @@ const Dashboard = () => {
           const res = await api.get('/proposals/my-proposals');
           setItems(res.data);
         } else if (user.role === 'admin') {
-          // Admin can see summary stats (simplified)
           const res = await api.get('/admin/stats');
           setItems(res.data);
         }
@@ -68,16 +68,8 @@ const Dashboard = () => {
               <Link to="/post-job" className="text-blue-600 font-medium hover:underline">Post your first job</Link>
             </div>
           ) : (
-            <div className="grid gap-4">
-              {items.map(job => (
-                <div key={job._id} className="bg-white p-4 rounded shadow border border-gray-100 flex justify-between items-center">
-                  <div>
-                    <h3 className="font-bold text-lg">{job.title}</h3>
-                    <p className="text-sm text-gray-500">Status: {job.status}</p>
-                  </div>
-                  <Link to={`/jobs/${job._id}`} className="text-blue-600 hover:underline">View Details</Link>
-                </div>
-              ))}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {items.map((job) => <JobCard key={job._id} job={job} />)}
             </div>
           )}
         </div>
@@ -99,8 +91,20 @@ const Dashboard = () => {
             <div className="grid gap-4">
               {items.map(proposal => (
                 <div key={proposal._id} className="bg-white p-4 rounded shadow border border-gray-100">
-                  <div className="flex justify-between">
-                    <h3 className="font-bold text-lg">Proposal for Job #{proposal.jobId}</h3>
+                  <div className="flex justify-between gap-4">
+                    <div>
+                      <h3 className="font-bold text-lg">
+                        {proposal.job?.title || 'Project no longer available'}
+                      </h3>
+                      {proposal.job && (
+                        <Link
+                          to={`/jobs/${proposal.job._id}`}
+                          className="text-sm text-blue-600 hover:underline"
+                        >
+                          View project details
+                        </Link>
+                      )}
+                    </div>
                     <span className={`px-2 py-1 rounded text-xs font-bold ${
                       proposal.status === 'accepted' ? 'bg-green-100 text-green-800' :
                       proposal.status === 'rejected' ? 'bg-red-100 text-red-800' : 'bg-yellow-100 text-yellow-800'
@@ -108,7 +112,11 @@ const Dashboard = () => {
                       {proposal.status.toUpperCase()}
                     </span>
                   </div>
-                  <p className="text-sm text-gray-600 mt-2">Bid: ${proposal.budget}</p>
+                  <div className="flex flex-wrap gap-4 text-sm text-gray-600 mt-3">
+                    <span>Bid: <strong className="text-gray-900">${proposal.proposedBudget}</strong></span>
+                    <span>Delivery: <strong className="text-gray-900">{proposal.deliveryDays} days</strong></span>
+                    {proposal.job?.status && <span>Project: <strong className="text-gray-900 capitalize">{proposal.job.status}</strong></span>}
+                  </div>
                 </div>
               ))}
             </div>
