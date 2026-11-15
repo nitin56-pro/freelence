@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance with base URL
 const api = axios.create({
-  baseURL: '/api',  // proxy will forward to backend
+  baseURL: import.meta.env.VITE_API_URL || '/api',
 });
 
 // Add token to every request automatically
