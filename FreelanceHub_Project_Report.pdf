@@ -1,0 +1,1221 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R] /Count 18 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 4 0 R /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> /F3 << /Type /Font /Subtype /Type1 /BaseFont /Courier >> >> >> >>
+endobj
+4 0 obj
+<< /Length 1864 >>
+stream
+0.150 0.350 0.650 RG 2.50 w 40.00 40.00 515.28 761.89 re S
+0.700 0.750 0.850 RG 1.00 w 44.00 44.00 507.28 753.89 re S
+0.900 0.940 0.990 rg 0.200 0.450 0.750 RG 1.00 w 180.00 725.00 235.00 26.00 re B
+0.150 0.350 0.650 rg BT /F2 9.5 Tf 205.00 733.00 Td (COLLEGE CAPSTONE PROJECT REPORT) Tj ET
+0.100 0.250 0.550 rg BT /F2 26 Tf 165.00 665.00 Td (FREELANCEHUB) Tj ET
+0.300 0.350 0.400 rg BT /F2 11.5 Tf 115.00 638.00 Td (A FULL-STACK MERN FREELANCE MARKETPLACE PLATFORM) Tj ET
+0.200 0.450 0.750 RG 1.50 w 150.00 615.00 m 445.00 615.00 l S
+0.200 0.200 0.200 rg BT /F1 11 Tf 145.00 545.00 Td (A Project Report Submitted in Partial Fulfillment of the) Tj ET
+0.200 0.200 0.200 rg BT /F1 11 Tf 195.00 528.00 Td (Requirements for the Degree of) Tj ET
+0.100 0.250 0.550 rg BT /F2 13 Tf 130.00 485.00 Td (BACHELOR OF COMPUTER APPLICATIONS \(BCA\)) Tj ET
+0.100 0.250 0.550 rg BT /F2 12 Tf 180.00 465.00 Td (/ B.TECH \(COMPUTER SCIENCE\)) Tj ET
+0.300 0.350 0.400 rg BT /F2 10.5 Tf 155.00 415.00 Td (DEPARTMENT OF COMPUTER APPLICATIONS) Tj ET
+0.300 0.350 0.400 rg BT /F1 10 Tf 190.00 398.00 Td (Academic Session: 2024 - 2026) Tj ET
+0.800 0.800 0.800 RG 0.80 w 60.00 240.00 m 535.00 240.00 l S
+0.400 0.450 0.500 rg BT /F2 9.5 Tf 65.00 215.00 Td (SUBMITTED BY:) Tj ET
+0.100 0.250 0.550 rg BT /F2 12 Tf 65.00 195.00 Td (Nitin Singh) Tj ET
+0.200 0.200 0.200 rg BT /F1 9.5 Tf 65.00 178.00 Td (Candidate Final Year \(BCA / B.Tech\)) Tj ET
+0.200 0.200 0.200 rg BT /F1 9.5 Tf 65.00 163.00 Td (Roll No: Final Year Examination) Tj ET
+0.400 0.450 0.500 rg BT /F2 9.5 Tf 340.00 215.00 Td (UNDER THE GUIDANCE OF:) Tj ET
+0.100 0.250 0.550 rg BT /F2 12 Tf 340.00 195.00 Td (Project Supervisor & Faculty Guide) Tj ET
+0.200 0.200 0.200 rg BT /F1 9.5 Tf 340.00 178.00 Td (Department of Computer Science) Tj ET
+0.200 0.200 0.200 rg BT /F1 9.5 Tf 340.00 163.00 Td (College / University Campus) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 6 0 R /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> /F3 << /Type /Font /Subtype /Type1 /BaseFont /Courier >> >> >> >>
+endobj
+6 0 obj
+<< /Length 3234 >>
+stream
+0.930 0.960 1.000 rg 0.180 0.450 0.750 RG 1.50 w 54.00 759.89 487.28 32.00 re B
+0.100 0.250 0.500 rg BT /F2 13 Tf 66.00 769.89 Td (CERTIFICATE OF AUTHENTICITY) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 732.39 Td (This is to certify that the major project report entitled "FREELANCEHUB: A) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 718.89 Td (FULL-STACK MERN FREELANCE MARKETPLACE PLATFORM" submitted by Nitin Singh in partial) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 705.39 Td (fulfillment of the academic requirements for the award of Bachelor of Computer) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 691.89 Td (Applications \(BCA\) / B.Tech \(Computer Science & Engineering\) is an authentic record) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 678.39 Td (of original development work completed under our guidance and supervision.) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 660.89 Td (The source code, database architectures, and RESTful APIs documented in this report) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 647.39 Td (represent the student's bona fide technical contributions and have not been submitted) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 633.89 Td (elsewhere for any academic degree or certification.) Tj ET
+0.500 0.500 0.500 RG 1.00 w 54.00 585.89 m 234.00 585.89 l S
+0.500 0.500 0.500 RG 1.00 w 361.28 585.89 m 541.28 585.89 l S
+0.200 0.200 0.200 rg BT /F2 9.5 Tf 79.00 571.89 Td (Project Supervisor / Guide) Tj ET
+0.200 0.200 0.200 rg BT /F2 9.5 Tf 381.28 571.89 Td (Head of Department \(HOD\)) Tj ET
+0.500 0.500 0.500 RG 1.00 w 205.00 525.89 m 390.00 525.89 l S
+0.200 0.200 0.200 rg BT /F2 9.5 Tf 245.00 511.89 Td (External Examiner) Tj ET
+0.930 0.960 1.000 rg 0.180 0.450 0.750 RG 1.50 w 54.00 457.89 487.28 32.00 re B
+0.100 0.250 0.500 rg BT /F2 13 Tf 66.00 467.89 Td (DECLARATION & ACKNOWLEDGEMENT) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 430.39 Td (I hereby declare that this project report entitled "FreelanceHub" represents my) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 416.89 Td (independent software design and implementation work. All technical literature,) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 403.39 Td (third-party open-source packages, and design references utilized throughout the) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 389.89 Td (development have been duly cited.) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 372.39 Td (I extend my deepest gratitude to my respected faculty members, laboratory) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 358.89 Td (instructors, and mentors for their invaluable technical guidance and critical code) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 345.39 Td (review sessions. I also thank my colleagues and family for their continuous support) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 331.89 Td (during the completion of this project.) Tj ET
+0.200 0.200 0.200 rg BT /F2 9.5 Tf 54.00 305.89 Td (Date: November 2026) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 291.89 Td (Candidate: Nitin Singh) Tj ET
+0.5 0.5 0.5 RG 0.5 w 54 40 m 541.28 40 l S
+0.5 0.5 0.5 rg BT /F1 8 Tf 54 30 Td (FreelanceHub - College Capstone Major Project Report) Tj ET
+BT /F2 8 Tf 490 30 Td (Page 2 of 18) Tj ET
+
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 8 0 R /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> /F3 << /Type /Font /Subtype /Type1 /BaseFont /Courier >> >> >> >>
+endobj
+8 0 obj
+<< /Length 6739 >>
+stream
+0.930 0.960 1.000 rg 0.180 0.450 0.750 RG 1.50 w 54.00 759.89 487.28 32.00 re B
+0.100 0.250 0.500 rg BT /F2 13 Tf 66.00 769.89 Td (EXECUTIVE ABSTRACT) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 732.39 Td (The rapid transformation towards decentralized remote digital employment has) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 718.89 Td (generated an unprecedented demand for reliable, modern, and transparent freelancing) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 705.39 Td (platforms. Existing legacy marketplaces frequently impose heavy intermediary) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 691.89 Td (commissions \(up to 20%\), suffer from bloated multi-page reloads, and conceal proposal) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 678.39 Td (evaluations behind opaque paywalls.) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 660.89 Td (FreelanceHub is an enterprise-grade, responsive single-page web application) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 647.39 Td (developed using the modern MERN stack \(MongoDB, Express.js, React 19, and Node.js\)) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 633.89 Td (paired with Tailwind CSS styling and Vite tooling. The platform implements Role-Based) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 620.39 Td (Access Control \(RBAC\) supporting three primary user tiers: Clients, Freelancers, and) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 606.89 Td (System Administrators.) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 589.39 Td (Key architectural highlights include stateless JSON Web Token \(JWT\) authorization,) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 575.89 Td (salted BCrypt password encryption, a dynamic bidding and proposal review) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 562.39 Td (state-machine, a mutual two-way 5-star rating and reputation calculation engine, and) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 548.89 Td (a turnkey single-command database seeder. This report outlines the complete Software) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 535.39 Td (Requirement Specification \(SRS\), Data Flow Diagrams \(DFDs\), Entity-Relationship \(ER\)) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 521.89 Td (schemas, implementation modules, test cases, and technical viva-voce guidelines.) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 501.89 Td (TABLE OF CONTENTS) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 497.89 m 541.28 497.89 l S
+0.900 0.930 0.970 rg 0.750 0.800 0.850 RG 1.00 w 54.00 461.89 485.00 22.00 re B
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 60.00 467.89 Td (Chapter) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 130.00 467.89 Td (Topic Description) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 490.00 467.89 Td (Page) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 441.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 447.89 Td (Chapter 1) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 130.00 447.89 Td (Introduction, Problem Statement & Objectives) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 490.00 447.89 Td (4) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 421.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 427.89 Td (Chapter 2) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 130.00 427.89 Td (Literature Survey & Comparative Feature Matri) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 490.00 427.89 Td (5) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 401.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 407.89 Td (Chapter 3) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 130.00 407.89 Td (Software Requirement Specification \(SRS\)) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 490.00 407.89 Td (6) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 381.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 387.89 Td (Chapter 4) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 130.00 387.89 Td (System Architecture & Data Flow Diagrams \(DFD) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 490.00 387.89 Td (7) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 361.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 367.89 Td (Chapter 5) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 130.00 367.89 Td (Database Schema & Entity-Relationship \(ER\) Mo) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 490.00 367.89 Td (8) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 341.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 347.89 Td (Chapter 6) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 130.00 347.89 Td (Modular System Design & Bidding State Machine) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 490.00 347.89 Td (10) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 321.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 327.89 Td (Chapter 7) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 130.00 327.89 Td (Core Implementation & Key Code Walkthrough) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 490.00 327.89 Td (11) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 301.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 307.89 Td (Chapter 8) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 130.00 307.89 Td (Software Testing & Formal Test Cases Matrix) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 490.00 307.89 Td (13) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 281.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 287.89 Td (Chapter 9) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 130.00 287.89 Td (Security, Encryption & Performance Optimizati) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 490.00 287.89 Td (14) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 261.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 267.89 Td (Chapter 10) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 130.00 267.89 Td (Turnkey Database Connection, Seeding & Viva D) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 490.00 267.89 Td (15) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 241.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 247.89 Td (Chapter 11) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 130.00 247.89 Td (Top 20 Technical Viva-Voce Questions & Model ) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 490.00 247.89 Td (16) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 221.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 227.89 Td (Chapter 12) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 130.00 227.89 Td (Future Enhancements, Conclusion & References) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 490.00 227.89 Td (19) Tj ET
+0.5 0.5 0.5 RG 0.5 w 54 40 m 541.28 40 l S
+0.5 0.5 0.5 rg BT /F1 8 Tf 54 30 Td (FreelanceHub - College Capstone Major Project Report) Tj ET
+BT /F2 8 Tf 490 30 Td (Page 3 of 18) Tj ET
+
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 10 0 R /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> /F3 << /Type /Font /Subtype /Type1 /BaseFont /Courier >> >> >> >>
+endobj
+10 0 obj
+<< /Length 4404 >>
+stream
+0.930 0.960 1.000 rg 0.180 0.450 0.750 RG 1.50 w 54.00 759.89 487.28 32.00 re B
+0.100 0.250 0.500 rg BT /F2 13 Tf 66.00 769.89 Td (CHAPTER 1: INTRODUCTION) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 729.89 Td (1.1 Background & Context) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 725.89 m 541.28 725.89 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 702.39 Td (The contemporary digital economy relies extensively on on-demand talent.) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 688.89 Td (Small-to-medium enterprises, tech startups, and independent business owners regularly) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 675.39 Td (outsource technical projects such as web development, mobile application programming,) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 661.89 Td (UI/UX prototyping, and technical documentation. FreelanceHub is developed as a modern) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 648.39 Td (marketplace bridge connecting organizations with verified technical specialists.) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 628.39 Td (1.2 Problem Statement) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 624.39 m 541.28 624.39 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 600.89 Td (Conventional freelance portals suffer from several operational and technical) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 587.39 Td (friction points:) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 569.89 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 569.89 Td (1. Exorbitant Platform Fees: Legacy platforms charge up to 20% commission on) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 556.39 Td (contract payouts, severely penalizing independent developers.) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 540.89 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 540.89 Td (2. Monolithic Performance Bottlenecks: Server-rendered full page reloads) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 527.39 Td (diminish user engagement and increase server memory footprints.) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 511.89 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 511.89 Td (3. Opaque Hiring Workflows: Absence of clear milestone tracking and proposal) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 498.39 Td (status visibility leaves freelancers uncertain.) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 482.89 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 482.89 Td (4. Lack of Clean Academic Reference Implementations: Few accessible) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 469.39 Td (open-source projects demonstrate strict Separation of Concerns using modern) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 455.89 Td (React 19 SPA patterns.) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 437.89 Td (1.3 Project Goals & Objectives) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 433.89 m 541.28 433.89 l S
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 410.39 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 410.39 Td (? Construct a high-performance Single Page Application \(SPA\) using React 19,) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 396.89 Td (React Router v7, and Tailwind CSS.) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 381.39 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 381.39 Td (? Engineer an asynchronous, stateless REST API in Node.js and Express.js) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 367.89 Td (supporting multi-role JWT authentication.) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 352.39 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 352.39 Td (? Design flexible document schemas in MongoDB using Mongoose ODM with) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 338.89 Td (relational ObjectId references.) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 323.39 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 323.39 Td (? Implement automated decimal rating recalculation upon contract completion.) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 307.89 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 307.89 Td (? Provide a turnkey evaluation seeder populating admin, client, and) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 294.39 Td (freelancer profiles with realistic bids and reviews.) Tj ET
+0.5 0.5 0.5 RG 0.5 w 54 40 m 541.28 40 l S
+0.5 0.5 0.5 rg BT /F1 8 Tf 54 30 Td (FreelanceHub - College Capstone Major Project Report) Tj ET
+BT /F2 8 Tf 490 30 Td (Page 4 of 18) Tj ET
+
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 12 0 R /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> /F3 << /Type /Font /Subtype /Type1 /BaseFont /Courier >> >> >> >>
+endobj
+12 0 obj
+<< /Length 4870 >>
+stream
+0.930 0.960 1.000 rg 0.180 0.450 0.750 RG 1.50 w 54.00 759.89 487.28 32.00 re B
+0.100 0.250 0.500 rg BT /F2 13 Tf 66.00 769.89 Td (CHAPTER 2: LITERATURE SURVEY & COMPARISON) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 729.89 Td (2.1 Existing Systems Analysis) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 725.89 m 541.28 725.89 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 702.39 Td (Traditional portals such as Upwork, Freelancer.com, and Fiverr established the) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 688.89 Td (commercial viability of remote gig marketplaces. However, their legacy backends rely) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 675.39 Td (on complex monolithic architectures, server-side template rendering, and paid) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 661.89 Td (proposal bidding models \('Connects'\). These monetization barriers restrict new) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 648.39 Td (graduates and emerging professionals.) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 628.39 Td (2.2 Proposed Solution: FreelanceHub) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 624.39 m 541.28 624.39 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 600.89 Td (FreelanceHub adopts a modern decoupled API-first design where UI presentation is) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 587.39 Td (completely decoupled from backend persistence. This ensures sub-150ms API responses,) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 573.89 Td (instant client-side routing, and zero licensing fees.) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 553.89 Td (2.3 Comparative Architectural Feature Matrix) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 549.89 m 541.28 549.89 l S
+0.900 0.930 0.970 rg 0.750 0.800 0.850 RG 1.00 w 54.00 513.89 485.00 22.00 re B
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 60.00 519.89 Td (Feature Metric) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 165.00 519.89 Td (Legacy Marketplaces) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 350.00 519.89 Td (FreelanceHub \(Proposed\)) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 493.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 499.89 Td (Architecture) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 165.00 499.89 Td (Monolithic Multi-Page) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 499.89 Td (Decoupled MERN SPA Architecture) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 473.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 479.89 Td (Frontend Engine) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 165.00 479.89 Td (PHP / JSP Server Templates) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 479.89 Td (React 19 + Tailwind CSS + Vite) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 453.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 459.89 Td (API Paradigm) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 165.00 459.89 Td (SOAP / Mixed Endpoints) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 459.89 Td (Stateless RESTful JSON API) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 433.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 439.89 Td (Database Layer) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 165.00 439.89 Td (Relational SQL \(Strict Schema\)) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 439.89 Td (MongoDB / Atlas Document Store) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 413.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 419.89 Td (Security Protocol) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 165.00 419.89 Td (Server Session Cookies) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 419.89 Td (Bearer JWT Tokens + BCrypt Hashing) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 393.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 399.89 Td (Bidding Barrier) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 165.00 399.89 Td (Paid Bidding Tokens \('Connects'\)) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 399.89 Td (Free Open Bidding Workflow) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 373.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 379.89 Td (Admin Oversight) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 165.00 379.89 Td (Proprietary Backend) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 379.89 Td (Integrated RBAC Admin Control Center) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 353.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 359.89 Td (Deployment Cost) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 165.00 359.89 Td (High Infrastructure Costs) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 359.89 Td (Free Tier \(Atlas + Vercel/Render\)) Tj ET
+0.5 0.5 0.5 RG 0.5 w 54 40 m 541.28 40 l S
+0.5 0.5 0.5 rg BT /F1 8 Tf 54 30 Td (FreelanceHub - College Capstone Major Project Report) Tj ET
+BT /F2 8 Tf 490 30 Td (Page 5 of 18) Tj ET
+
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 14 0 R /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> /F3 << /Type /Font /Subtype /Type1 /BaseFont /Courier >> >> >> >>
+endobj
+14 0 obj
+<< /Length 5313 >>
+stream
+0.930 0.960 1.000 rg 0.180 0.450 0.750 RG 1.50 w 54.00 759.89 487.28 32.00 re B
+0.100 0.250 0.500 rg BT /F2 13 Tf 66.00 769.89 Td (CHAPTER 3: SOFTWARE REQUIREMENT SPECIFICATION) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 729.89 Td (3.1 Functional Requirements) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 725.89 m 541.28 725.89 l S
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 702.39 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 702.39 Td (FR-1: User Management: Registration, login, and profile editing with support) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 688.89 Td (for 'client', 'freelancer', and 'admin' roles.) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 673.39 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 673.39 Td (FR-2: Project Publishing: Clients can create, edit, and delete job postings) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 659.89 Td (with budget parameters \($Min-$Max\), categories, skills, and target deadlines.) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 644.39 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 644.39 Td (FR-3: Bidding & Proposals: Freelancers can browse jobs, filter by keyword and) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 630.89 Td (category, and submit bid proposals with custom cover letters and delivery) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 617.39 Td (days.) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 601.89 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 601.89 Td (FR-4: Hiring State Machine: Clients can review incoming bids, accept winning) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 588.39 Td (proposals \(locking the job to 'in-progress'\), and automatically reject other) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 574.89 Td (bids.) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 559.39 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 559.39 Td (FR-5: Contract Completion: Clients mark active contracts as 'completed',) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 545.89 Td (unlocking mutual 5-star review submissions.) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 530.39 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 530.39 Td (FR-6: Admin Oversight: Administrators monitor platform statistics, delete) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 516.89 Td (fraudulent accounts, and remove inappropriate job postings.) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 498.89 Td (3.2 Hardware & Software Specifications) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 494.89 m 541.28 494.89 l S
+0.900 0.930 0.970 rg 0.750 0.800 0.850 RG 1.00 w 54.00 458.89 485.00 22.00 re B
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 60.00 464.89 Td (Resource Category) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 175.00 464.89 Td (Minimum Requirement) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 350.00 464.89 Td (Recommended Development Spec) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 438.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 444.89 Td (CPU Processor) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 175.00 444.89 Td (Intel Core i3 / AMD Ryzen 3) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 444.89 Td (Intel Core i5 / AMD Ryzen 5 or higher) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 418.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 424.89 Td (System Memory) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 175.00 424.89 Td (4 GB DDR4 RAM) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 424.89 Td (8 GB / 16 GB DDR4/DDR5 RAM) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 398.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 404.89 Td (Disk Storage) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 175.00 404.89 Td (500 MB Free Disk Space) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 404.89 Td (1 GB Free SSD Storage) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 378.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 384.89 Td (Operating System) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 175.00 384.89 Td (Windows 10, macOS, Linux) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 384.89 Td (Windows 11 \(64-bit\)) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 358.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 364.89 Td (Node Runtime) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 175.00 364.89 Td (Node.js v18.x LTS) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 364.89 Td (Node.js v20.x or v22.x LTS) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 338.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 344.89 Td (Database Engine) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 175.00 344.89 Td (MongoDB v6.0+ Community) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 344.89 Td (MongoDB Atlas M0 Cloud Cluster \(Free\)) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 318.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 324.89 Td (Build Tooling) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 175.00 324.89 Td (Vite v5.x / v6.x) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 324.89 Td (Vite v8.x + Oxlint Static Analyzer) Tj ET
+0.5 0.5 0.5 RG 0.5 w 54 40 m 541.28 40 l S
+0.5 0.5 0.5 rg BT /F1 8 Tf 54 30 Td (FreelanceHub - College Capstone Major Project Report) Tj ET
+BT /F2 8 Tf 490 30 Td (Page 6 of 18) Tj ET
+
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 16 0 R /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> /F3 << /Type /Font /Subtype /Type1 /BaseFont /Courier >> >> >> >>
+endobj
+16 0 obj
+<< /Length 4579 >>
+stream
+0.930 0.960 1.000 rg 0.180 0.450 0.750 RG 1.50 w 54.00 759.89 487.28 32.00 re B
+0.100 0.250 0.500 rg BT /F2 13 Tf 66.00 769.89 Td (CHAPTER 4: SYSTEM ARCHITECTURE & DFD) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 729.89 Td (4.1 Three-Tier Architecture) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 725.89 m 541.28 725.89 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 702.39 Td (FreelanceHub strictly adheres to the 3-Tier Architectural Pattern comprising the) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 688.89 Td (Presentation Tier \(React 19\), Application Logic Tier \(Express/Node.js\), and Data) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 675.39 Td (Persistence Tier \(MongoDB\).) Tj ET
+0.970 0.980 0.990 rg 0.800 0.850 0.900 RG 1.00 w 54.00 411.39 487.28 256.00 re B
+0.200 0.450 0.800 rg 54.00 411.39 4.00 256.00 re f
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 655.39 Td (+-------------------------------------------------------------------------+) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 643.39 Td (|                        TIER 1: PRESENTATION TIER                        |) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 631.39 Td (|             React 19 + Tailwind CSS + Axios API Interceptor             |) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 619.39 Td (|  Pages: Home, Jobs, JobDetail, PostJob, Dashboard, Profile, AdminPanel  |) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 607.39 Td (+------------------------------------+------------------------------------+) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 595.39 Td (                                     |  HTTP REST Requests \(JSON + Bearer Token\)) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 583.39 Td (                                     v) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 571.39 Td (+------------------------------------+------------------------------------+) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 559.39 Td (|                     TIER 2: APPLICATION LOGIC TIER                      |) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 547.39 Td (|                      Node.js Runtime + Express.js                       |) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 535.39 Td (|    Controllers: authController, jobController, proposalController       |) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 523.39 Td (|    Middlewares: JWT protect, errorHandler, CORS, express.json\(\)         |) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 511.39 Td (+------------------------------------+------------------------------------+) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 499.39 Td (                                     |  Mongoose ODM Wire Protocol) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 487.39 Td (                                     v) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 475.39 Td (+------------------------------------+------------------------------------+) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 463.39 Td (|                      TIER 3: DATA PERSISTENCE TIER                      |) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 451.39 Td (|             MongoDB Community Server OR MongoDB Atlas Cloud             |) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 439.39 Td (|           Collections: users, jobs, proposals, reviews                  |) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 427.39 Td (+-------------------------------------------------------------------------+) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 389.39 Td (4.2 Data Flow Diagrams) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 385.39 m 541.28 385.39 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 361.89 Td (DFD Level 0 \(Context Level\): Models external entities \(Client, Freelancer, Admin\)) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 348.39 Td (exchanging authentication credentials, job postings, proposals, and reviews with the) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 334.89 Td (central FreelanceHub system boundary.) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 317.39 Td (DFD Level 1: Details the transition from Authentication & Token Dispatch \(Process) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 303.89 Td (1.0\), to Job Publishing \(Process 2.0\), Proposal Submission \(Process 3.0\), Proposal) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 290.39 Td (Acceptance \(Process 4.0\), and Review Engine \(Process 5.0\).) Tj ET
+0.5 0.5 0.5 RG 0.5 w 54 40 m 541.28 40 l S
+0.5 0.5 0.5 rg BT /F1 8 Tf 54 30 Td (FreelanceHub - College Capstone Major Project Report) Tj ET
+BT /F2 8 Tf 490 30 Td (Page 7 of 18) Tj ET
+
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 18 0 R /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> /F3 << /Type /Font /Subtype /Type1 /BaseFont /Courier >> >> >> >>
+endobj
+18 0 obj
+<< /Length 9421 >>
+stream
+0.930 0.960 1.000 rg 0.180 0.450 0.750 RG 1.50 w 54.00 759.89 487.28 32.00 re B
+0.100 0.250 0.500 rg BT /F2 13 Tf 66.00 769.89 Td (CHAPTER 5: DATABASE SCHEMAS & DATA DICTIONARY) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 729.89 Td (5.1 Collections Schema Overview) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 725.89 m 541.28 725.89 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 702.39 Td (The database utilizes four normalized collections. Foreign key relationships are) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 688.89 Td (enforced using Mongoose Schema Types ObjectId with reference attributes.) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 668.89 Td (5.2 Data Dictionary: Users Collection) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 664.89 m 541.28 664.89 l S
+0.900 0.930 0.970 rg 0.750 0.800 0.850 RG 1.00 w 54.00 628.89 485.00 22.00 re B
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 60.00 634.89 Td (Field Name) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 150.00 634.89 Td (Data Type) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 230.00 634.89 Td (Constraint) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 370.00 634.89 Td (Description) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 608.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 614.89 Td (_id) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 150.00 614.89 Td (ObjectId) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 230.00 614.89 Td (Primary Key) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 370.00 614.89 Td (Unique system identifier for user) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 588.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 594.89 Td (name) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 150.00 594.89 Td (String) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 230.00 594.89 Td (Required) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 370.00 594.89 Td (Full name of the individual) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 568.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 574.89 Td (email) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 150.00 574.89 Td (String) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 230.00 574.89 Td (Required, Unique) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 370.00 574.89 Td (Login email address) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 548.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 554.89 Td (password) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 150.00 554.89 Td (String) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 230.00 554.89 Td (Required) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 370.00 554.89 Td (BCrypt salted password hash) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 528.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 534.89 Td (role) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 150.00 534.89 Td (String) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 230.00 534.89 Td (Enum: freelancer, client, admin) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 370.00 534.89 Td (Authorization role) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 508.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 514.89 Td (bio) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 150.00 514.89 Td (String) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 230.00 514.89 Td (Optional, Default: '') Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 370.00 514.89 Td (Professional summary biography) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 488.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 494.89 Td (skills) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 150.00 494.89 Td (Array of Strings) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 230.00 494.89 Td (Optional) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 370.00 494.89 Td (List of technical skills \(e.g. React\)) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 468.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 474.89 Td (hourlyRate) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 150.00 474.89 Td (Number) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 230.00 474.89 Td (Default: 0) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 370.00 474.89 Td (Hourly compensation rate \($\)) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 448.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 454.89 Td (company) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 150.00 454.89 Td (String) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 230.00 454.89 Td (Optional) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 370.00 454.89 Td (Company name for client profiles) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 428.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 434.89 Td (rating) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 150.00 434.89 Td (Number) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 230.00 434.89 Td (Default: 0) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 370.00 434.89 Td (Dynamic average rating \(1.0 - 5.0\)) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 408.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 414.89 Td (totalReviews) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 150.00 414.89 Td (Number) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 230.00 414.89 Td (Default: 0) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 370.00 414.89 Td (Count of verified reviews received) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 366.89 Td (5.3 Data Dictionary: Jobs Collection) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 362.89 m 541.28 362.89 l S
+0.900 0.930 0.970 rg 0.750 0.800 0.850 RG 1.00 w 54.00 326.89 485.00 22.00 re B
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 60.00 332.89 Td (Field Name) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 150.00 332.89 Td (Data Type) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 230.00 332.89 Td (Constraint) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 370.00 332.89 Td (Description) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 306.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 312.89 Td (_id) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 150.00 312.89 Td (ObjectId) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 230.00 312.89 Td (Primary Key) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 370.00 312.89 Td (Unique project identifier) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 286.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 292.89 Td (client) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 150.00 292.89 Td (ObjectId) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 230.00 292.89 Td (Ref: 'User', Required) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 370.00 292.89 Td (Client foreign key reference) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 266.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 272.89 Td (title) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 150.00 272.89 Td (String) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 230.00 272.89 Td (Required) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 370.00 272.89 Td (Descriptive project title) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 246.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 252.89 Td (description) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 150.00 252.89 Td (String) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 230.00 252.89 Td (Required) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 370.00 252.89 Td (Full scope of requirements) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 226.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 232.89 Td (category) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 150.00 232.89 Td (String) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 230.00 232.89 Td (Required) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 370.00 232.89 Td (Domain \(e.g. Web Development\)) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 206.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 212.89 Td (skillsRequired) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 150.00 212.89 Td (Array of Strings) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 230.00 212.89 Td (Optional) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 370.00 212.89 Td (Required tech competencies) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 186.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 192.89 Td (budgetMin) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 150.00 192.89 Td (Number) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 230.00 192.89 Td (Required, min: 5) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 370.00 192.89 Td (Minimum allocated budget \($\)) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 166.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 172.89 Td (budgetMax) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 150.00 172.89 Td (Number) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 230.00 172.89 Td (Required, min: 5) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 370.00 172.89 Td (Maximum allocated budget \($\)) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 146.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 152.89 Td (status) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 150.00 152.89 Td (String) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 230.00 152.89 Td (Enum: open, in-progress, completed) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 370.00 152.89 Td (Current lifecycle status) Tj ET
+0.5 0.5 0.5 RG 0.5 w 54 40 m 541.28 40 l S
+0.5 0.5 0.5 rg BT /F1 8 Tf 54 30 Td (FreelanceHub - College Capstone Major Project Report) Tj ET
+BT /F2 8 Tf 490 30 Td (Page 8 of 18) Tj ET
+
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 20 0 R /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> /F3 << /Type /Font /Subtype /Type1 /BaseFont /Courier >> >> >> >>
+endobj
+20 0 obj
+<< /Length 7852 >>
+stream
+0.930 0.960 1.000 rg 0.180 0.450 0.750 RG 1.50 w 54.00 759.89 487.28 32.00 re B
+0.100 0.250 0.500 rg BT /F2 13 Tf 66.00 769.89 Td (CHAPTER 5 \(CONT.\): PROPOSALS & REVIEWS SCHEMAS) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 729.89 Td (5.4 Data Dictionary: Proposals Collection) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 725.89 m 541.28 725.89 l S
+0.900 0.930 0.970 rg 0.750 0.800 0.850 RG 1.00 w 54.00 689.89 485.00 22.00 re B
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 60.00 695.89 Td (Field Name) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 155.00 695.89 Td (Data Type) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 235.00 695.89 Td (Constraint) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 375.00 695.89 Td (Description) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 669.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 675.89 Td (_id) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 675.89 Td (ObjectId) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 235.00 675.89 Td (Primary Key) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 375.00 675.89 Td (Unique bid proposal identifier) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 649.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 655.89 Td (job) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 655.89 Td (ObjectId) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 235.00 655.89 Td (Ref: 'Job', Required) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 375.00 655.89 Td (Associated project reference) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 629.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 635.89 Td (freelancer) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 635.89 Td (ObjectId) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 235.00 635.89 Td (Ref: 'User', Required) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 375.00 635.89 Td (Bidding freelancer reference) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 609.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 615.89 Td (coverLetter) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 615.89 Td (String) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 235.00 615.89 Td (Required) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 375.00 615.89 Td (Technical pitch and proposal message) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 589.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 595.89 Td (proposedBudget) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 595.89 Td (Number) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 235.00 595.89 Td (Required) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 375.00 595.89 Td (Freelancer's proposed bid price \($\)) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 569.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 575.89 Td (deliveryDays) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 575.89 Td (Number) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 235.00 575.89 Td (Required) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 375.00 575.89 Td (Estimated delivery timeline \(Days\)) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 549.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 555.89 Td (status) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 555.89 Td (String) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 235.00 555.89 Td (Enum: pending, accepted, rejected) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 375.00 555.89 Td (Current bid decision status) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 529.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 535.89 Td (createdAt) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 535.89 Td (Date) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 235.00 535.89 Td (Default: Date.now) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 375.00 535.89 Td (Timestamp of proposal submission) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 487.89 Td (5.5 Data Dictionary: Reviews Collection) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 483.89 m 541.28 483.89 l S
+0.900 0.930 0.970 rg 0.750 0.800 0.850 RG 1.00 w 54.00 447.89 485.00 22.00 re B
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 60.00 453.89 Td (Field Name) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 155.00 453.89 Td (Data Type) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 235.00 453.89 Td (Constraint) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 375.00 453.89 Td (Description) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 427.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 433.89 Td (_id) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 433.89 Td (ObjectId) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 235.00 433.89 Td (Primary Key) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 375.00 433.89 Td (Unique feedback evaluation ID) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 407.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 413.89 Td (job) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 413.89 Td (ObjectId) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 235.00 413.89 Td (Ref: 'Job', Required) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 375.00 413.89 Td (Completed project reference) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 387.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 393.89 Td (reviewer) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 393.89 Td (ObjectId) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 235.00 393.89 Td (Ref: 'User', Required) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 375.00 393.89 Td (Author of feedback evaluation) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 367.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 373.89 Td (reviewee) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 373.89 Td (ObjectId) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 235.00 373.89 Td (Ref: 'User', Required) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 375.00 373.89 Td (Recipient of feedback rating) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 347.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 353.89 Td (rating) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 353.89 Td (Number) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 235.00 353.89 Td (Required, Min: 1, Max: 5) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 375.00 353.89 Td (Numerical evaluation score) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 327.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 333.89 Td (comment) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 333.89 Td (String) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 235.00 333.89 Td (Required) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 375.00 333.89 Td (Textual evaluation and remarks) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 307.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 313.89 Td (createdAt) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 313.89 Td (Date) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 235.00 313.89 Td (Default: Date.now) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 375.00 313.89 Td (Review creation timestamp) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 265.89 Td (5.6 Database Normalization & Integrity) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 261.89 m 541.28 261.89 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 238.39 Td (The database adheres to Third Normal Form \(3NF\). Redundant data duplication is) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 224.89 Td (strictly avoided by storing user details once in the Users collection and referencing) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 211.39 Td (them through ObjectIds. Relational population is performed at the query level using) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 197.89 Td (Mongoose populate\(\) routines.) Tj ET
+0.5 0.5 0.5 RG 0.5 w 54 40 m 541.28 40 l S
+0.5 0.5 0.5 rg BT /F1 8 Tf 54 30 Td (FreelanceHub - College Capstone Major Project Report) Tj ET
+BT /F2 8 Tf 490 30 Td (Page 9 of 18) Tj ET
+
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 22 0 R /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> /F3 << /Type /Font /Subtype /Type1 /BaseFont /Courier >> >> >> >>
+endobj
+22 0 obj
+<< /Length 3755 >>
+stream
+0.930 0.960 1.000 rg 0.180 0.450 0.750 RG 1.50 w 54.00 759.89 487.28 32.00 re B
+0.100 0.250 0.500 rg BT /F2 13 Tf 66.00 769.89 Td (CHAPTER 6: MODULAR FUNCTIONAL SPECIFICATIONS) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 729.89 Td (6.1 Authentication & Authorization Module) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 725.89 m 541.28 725.89 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 702.39 Td (The authentication subsystem enforces strict role segregation across all endpoints:) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 684.89 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 684.89 Td (? Public Endpoints: /api/auth/register, /api/auth/login, /api/jobs \(GET\),) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 671.39 Td (/api/users/:id.) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 655.89 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 655.89 Td (? Client Protected Endpoints: /api/jobs \(POST, PUT, DELETE\),) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 642.39 Td (/api/jobs/:id/complete, /api/proposals/job/:jobId.) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 626.89 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 626.89 Td (? Freelancer Protected Endpoints: /api/proposals \(POST\),) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 613.39 Td (/api/proposals/my-proposals.) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 597.89 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 597.89 Td (? Admin Endpoints: /api/admin/users, /api/admin/jobs, /api/admin/stats.) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 579.89 Td (6.2 Proposal & Contract State Machine) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 575.89 m 541.28 575.89 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 552.39 Td (Contracts transition through deterministic states to ensure data integrity:) Tj ET
+0.970 0.980 0.990 rg 0.800 0.850 0.900 RG 1.00 w 54.00 348.39 487.28 196.00 re B
+0.200 0.450 0.800 rg 54.00 348.39 4.00 196.00 re f
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 532.39 Td ([1. Client Posts Job] ----------> Job.status = 'open') Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 520.39 Td (                                      |) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 508.39 Td (                                      v) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 496.39 Td ([2. Freelancer Submits Bid] ----> Proposal.status = 'pending') Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 484.39 Td (                                      |) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 472.39 Td (                                      v) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 460.39 Td ([3. Client Accepts Proposal] ---> Proposal.status = 'accepted') Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 448.39 Td (                                  Job.status = 'in-progress') Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 436.39 Td (                                  All Other Proposals = 'rejected') Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 424.39 Td (                                      |) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 412.39 Td (                                      v) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 400.39 Td ([4. Client Marks Completed] ----> Job.status = 'completed') Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 388.39 Td (                                      |) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 376.39 Td (                                      v) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 364.39 Td ([5. Mutual Reviews Exchanged] --> Recalculate User.rating Average) Tj ET
+0.5 0.5 0.5 RG 0.5 w 54 40 m 541.28 40 l S
+0.5 0.5 0.5 rg BT /F1 8 Tf 54 30 Td (FreelanceHub - College Capstone Major Project Report) Tj ET
+BT /F2 8 Tf 490 30 Td (Page 10 of 18) Tj ET
+
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 24 0 R /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> /F3 << /Type /Font /Subtype /Type1 /BaseFont /Courier >> >> >> >>
+endobj
+24 0 obj
+<< /Length 4924 >>
+stream
+0.930 0.960 1.000 rg 0.180 0.450 0.750 RG 1.50 w 54.00 759.89 487.28 32.00 re B
+0.100 0.250 0.500 rg BT /F2 13 Tf 66.00 769.89 Td (CHAPTER 7: CORE IMPLEMENTATION CODE) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 729.89 Td (7.1 JWT Token Verification Middleware) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 725.89 m 541.28 725.89 l S
+0.970 0.980 0.990 rg 0.800 0.850 0.900 RG 1.00 w 54.00 443.89 487.28 268.00 re B
+0.200 0.450 0.800 rg 54.00 443.89 4.00 268.00 re f
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 699.89 Td (// server/middleware/auth.js) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 687.89 Td (const jwt = require\('jsonwebtoken'\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 675.89 Td (const User = require\('../models/User'\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 663.89 Td () Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 651.89 Td (const protect = async \(req, res, next\) => {) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 639.89 Td (    let token;) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 627.89 Td (    if \(req.headers.authorization && req.headers.authorization.startsWith\('Bearer'\)\) {) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 615.89 Td (        try {) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 603.89 Td (            token = req.headers.authorization.split\(' '\)[1];) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 591.89 Td (            const decoded = jwt.verify\(token, process.env.JWT_SECRET\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 579.89 Td (            req.user = await User.findById\(decoded.id\).select\('-password'\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 567.89 Td (            if \(!req.user\) {) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 555.89 Td (                return res.status\(401\).json\({ message: 'User account not found' }\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 543.89 Td (            }) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 531.89 Td (            return next\(\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 519.89 Td (        } catch \(error\) {) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 507.89 Td (            return res.status\(401\).json\({ message: 'Not authorized, token failed' }\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 495.89 Td (        }) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 483.89 Td (    }) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 471.89 Td (    if \(!token\) return res.status\(401\).json\({ message: 'No authorization token provided' }\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 459.89 Td (};) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 421.89 Td (7.2 Proposal Acceptance Controller) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 417.89 m 541.28 417.89 l S
+0.970 0.980 0.990 rg 0.800 0.850 0.900 RG 1.00 w 54.00 171.89 487.28 232.00 re B
+0.200 0.450 0.800 rg 54.00 171.89 4.00 232.00 re f
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 391.89 Td (// server/controllers/proposalController.js \(Accept Proposal\)) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 379.89 Td (const acceptProposal = async \(req, res\) => {) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 367.89 Td (    const proposal = await Proposal.findById\(req.params.id\).populate\('job'\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 355.89 Td (    if \(proposal.job.client.toString\(\) !== req.user.id && req.user.role !== 'admin'\) {) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 343.89 Td (        return res.status\(401\).json\({ message: 'Not authorized' }\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 331.89 Td (    }) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 319.89 Td (    proposal.status = 'accepted';) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 307.89 Td (    await proposal.save\(\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 295.89 Td () Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 283.89 Td (    const job = await Job.findById\(proposal.job._id\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 271.89 Td (    job.status = 'in-progress';) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 259.89 Td (    await job.save\(\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 247.89 Td () Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 235.89 Td (    // Reject all competing proposals) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 223.89 Td (    await Proposal.updateMany\({ job: job._id, _id: { $ne: proposal._id } },) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 211.89 Td (                              { $set: { status: 'rejected' } }\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 199.89 Td (    res.json\({ message: 'Proposal accepted successfully', proposal }\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 187.89 Td (};) Tj ET
+0.5 0.5 0.5 RG 0.5 w 54 40 m 541.28 40 l S
+0.5 0.5 0.5 rg BT /F1 8 Tf 54 30 Td (FreelanceHub - College Capstone Major Project Report) Tj ET
+BT /F2 8 Tf 490 30 Td (Page 11 of 18) Tj ET
+
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 26 0 R /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> /F3 << /Type /Font /Subtype /Type1 /BaseFont /Courier >> >> >> >>
+endobj
+26 0 obj
+<< /Length 4190 >>
+stream
+0.930 0.960 1.000 rg 0.180 0.450 0.750 RG 1.50 w 54.00 759.89 487.28 32.00 re B
+0.100 0.250 0.500 rg BT /F2 13 Tf 66.00 769.89 Td (CHAPTER 7 \(CONT.\): REVIEW RATING ENGINE) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 729.89 Td (7.3 Review Creation & Dynamic Average Calculation) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 725.89 m 541.28 725.89 l S
+0.970 0.980 0.990 rg 0.800 0.850 0.900 RG 1.00 w 54.00 455.89 487.28 256.00 re B
+0.200 0.450 0.800 rg 54.00 455.89 4.00 256.00 re f
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 699.89 Td (// server/controllers/reviewController.js) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 687.89 Td (const createReview = async \(req, res\) => {) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 675.89 Td (    const { job: jobId, reviewee, rating, comment } = req.body;) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 663.89 Td (    const existing = await Review.findOne\({ job: jobId, reviewer: req.user.id }\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 651.89 Td (    if \(existing\) return res.status\(400\).json\({ message: 'Already reviewed' }\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 639.89 Td () Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 627.89 Td (    const review = new Review\({) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 615.89 Td (        job: jobId, reviewer: req.user.id, reviewee, rating: Number\(rating\), comment) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 603.89 Td (    }\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 591.89 Td (    await review.save\(\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 579.89 Td () Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 567.89 Td (    // Dynamically recalculate reviewee average score) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 555.89 Td (    const reviews = await Review.find\({ reviewee }\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 543.89 Td (    const totalReviews = reviews.length;) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 531.89 Td (    const sum = reviews.reduce\(\(acc, curr\) => acc + curr.rating, 0\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 519.89 Td (    const avgRating = totalReviews > 0 ? Math.round\(\(sum / totalReviews\) * 10\) / 10 : 0;) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 507.89 Td () Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 495.89 Td (    await User.findByIdAndUpdate\(reviewee, { rating: avgRating, totalReviews }\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 483.89 Td (    res.status\(201\).json\(review\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 471.89 Td (};) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 433.89 Td (7.4 Frontend Axios Bearer Token Interceptor) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 429.89 m 541.28 429.89 l S
+0.970 0.980 0.990 rg 0.800 0.850 0.900 RG 1.00 w 54.00 243.89 487.28 172.00 re B
+0.200 0.450 0.800 rg 54.00 243.89 4.00 172.00 re f
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 403.89 Td (// client/src/utils/api.js) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 391.89 Td (import axios from 'axios';) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 379.89 Td () Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 367.89 Td (const api = axios.create\({ baseURL: '/api' }\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 355.89 Td () Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 343.89 Td (api.interceptors.request.use\(\(config\) => {) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 331.89 Td (    const user = JSON.parse\(localStorage.getItem\('user'\)\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 319.89 Td (    if \(user && user.token\) {) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 307.89 Td (        config.headers.Authorization = `Bearer ${user.token}`;) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 295.89 Td (    }) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 283.89 Td (    return config;) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 271.89 Td (}\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 259.89 Td (export default api;) Tj ET
+0.5 0.5 0.5 RG 0.5 w 54 40 m 541.28 40 l S
+0.5 0.5 0.5 rg BT /F1 8 Tf 54 30 Td (FreelanceHub - College Capstone Major Project Report) Tj ET
+BT /F2 8 Tf 490 30 Td (Page 12 of 18) Tj ET
+
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 28 0 R /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> /F3 << /Type /Font /Subtype /Type1 /BaseFont /Courier >> >> >> >>
+endobj
+28 0 obj
+<< /Length 7219 >>
+stream
+0.930 0.960 1.000 rg 0.180 0.450 0.750 RG 1.50 w 54.00 759.89 487.28 32.00 re B
+0.100 0.250 0.500 rg BT /F2 13 Tf 66.00 769.89 Td (CHAPTER 8: SOFTWARE TESTING & TEST CASES) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 729.89 Td (8.1 Formal Verification Test Cases Matrix) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 725.89 m 541.28 725.89 l S
+0.900 0.930 0.970 rg 0.750 0.800 0.850 RG 1.00 w 54.00 689.89 485.00 22.00 re B
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 60.00 695.89 Td (ID) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 100.00 695.89 Td (Test Scenario) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 225.00 695.89 Td (Input Data) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 350.00 695.89 Td (Expected Result) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 505.00 695.89 Td (Status) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 669.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 675.89 Td (TC-01) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 100.00 675.89 Td (Valid User Registration) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 225.00 675.89 Td (Valid name, email, pass, role) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 675.89 Td (HTTP 201, User + JWT Token) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 505.00 675.89 Td (PASS) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 649.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 655.89 Td (TC-02) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 100.00 655.89 Td (Duplicate Email Register) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 225.00 655.89 Td (Existing email address) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 655.89 Td (HTTP 400 'User already exists') Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 505.00 655.89 Td (PASS) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 629.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 635.89 Td (TC-03) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 100.00 635.89 Td (Valid User Login) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 225.00 635.89 Td (Correct email + password) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 635.89 Td (HTTP 200, JWT Token dispatched) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 505.00 635.89 Td (PASS) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 609.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 615.89 Td (TC-04) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 100.00 615.89 Td (Invalid Password Login) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 225.00 615.89 Td (Correct email + wrong pass) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 615.89 Td (HTTP 401 'Invalid credentials') Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 505.00 615.89 Td (PASS) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 589.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 595.89 Td (TC-05) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 100.00 595.89 Td (RBAC Job Creation Check) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 225.00 595.89 Td (Role: freelancer, POST /jobs) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 595.89 Td (HTTP 403 'Only clients post jobs') Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 505.00 595.89 Td (PASS) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 569.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 575.89 Td (TC-06) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 100.00 575.89 Td (Client Project Posting) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 225.00 575.89 Td (Title, Budget: 500-1000) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 575.89 Td (HTTP 201, Job created \(open\)) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 505.00 575.89 Td (PASS) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 549.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 555.89 Td (TC-07) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 100.00 555.89 Td (Submit Proposal Bid) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 225.00 555.89 Td (Cover letter, $600, 7 days) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 555.89 Td (HTTP 201, Proposal \(pending\)) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 505.00 555.89 Td (PASS) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 529.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 535.89 Td (TC-08) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 100.00 535.89 Td (Duplicate Proposal Guard) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 225.00 535.89 Td (Same freelancer bidding twice) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 535.89 Td (HTTP 400 'Already submitted bid') Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 505.00 535.89 Td (PASS) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 509.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 515.89 Td (TC-09) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 100.00 515.89 Td (Accept Winning Proposal) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 225.00 515.89 Td (PUT /api/proposals/:id/accept) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 515.89 Td (Proposal 'accepted', Job 'in-progress') Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 505.00 515.89 Td (PASS) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 489.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 495.89 Td (TC-10) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 100.00 495.89 Td (Mark Project Completed) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 225.00 495.89 Td (PUT /api/jobs/:id/complete) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 495.89 Td (Job status updated to 'completed') Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 505.00 495.89 Td (PASS) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 469.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 475.89 Td (TC-11) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 100.00 475.89 Td (Submit Review & Rating) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 225.00 475.89 Td (Rating: 5, Comment: 'Excellent') Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 475.89 Td (Review saved, avg score recalculated) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 505.00 475.89 Td (PASS) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 449.89 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 455.89 Td (TC-12) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 100.00 455.89 Td (Admin Route Security) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 225.00 455.89 Td (Role: client, GET /admin/stats) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 350.00 455.89 Td (HTTP 403 'Not authorized as admin') Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 505.00 455.89 Td (PASS) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 407.89 Td (8.2 Security & Penetration Testing Results) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 403.89 m 541.28 403.89 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 380.39 Td (All sensitive routes were audited against NoSQL injection, unauthorized parameter) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 366.89 Td (tampering, and token spoofing. Routes correctly rejected unauthenticated payloads) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 353.39 Td (with HTTP 401, while unauthorized role attempts returned HTTP 403 Forbidden.) Tj ET
+0.5 0.5 0.5 RG 0.5 w 54 40 m 541.28 40 l S
+0.5 0.5 0.5 rg BT /F1 8 Tf 54 30 Td (FreelanceHub - College Capstone Major Project Report) Tj ET
+BT /F2 8 Tf 490 30 Td (Page 13 of 18) Tj ET
+
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 30 0 R /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> /F3 << /Type /Font /Subtype /Type1 /BaseFont /Courier >> >> >> >>
+endobj
+30 0 obj
+<< /Length 2999 >>
+stream
+0.930 0.960 1.000 rg 0.180 0.450 0.750 RG 1.50 w 54.00 759.89 487.28 32.00 re B
+0.100 0.250 0.500 rg BT /F2 13 Tf 66.00 769.89 Td (CHAPTER 9: SECURITY & BEST PRACTICES) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 729.89 Td (9.1 Cryptographic Salted Hashing \(BCrypt\)) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 725.89 m 541.28 725.89 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 702.39 Td (User passwords are encrypted before persisting into MongoDB. The system utilizes) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 688.89 Td (bcryptjs with 10 salt rounds:) Tj ET
+0.970 0.980 0.990 rg 0.800 0.850 0.900 RG 1.00 w 54.00 640.89 487.28 40.00 re B
+0.200 0.450 0.800 rg 54.00 640.89 4.00 40.00 re f
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 668.89 Td (const salt = await bcrypt.genSalt\(10\);) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 656.89 Td (const hashedPassword = await bcrypt.hash\(password, salt\);) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 621.39 Td (Salted hashing ensures that identical plaintext passwords produce radically distinct) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 607.89 Td (hashes, rendering rainbow table lookup attacks completely ineffective.) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 587.89 Td (9.2 Stateless JWT Authorization) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 583.89 m 541.28 583.89 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 560.39 Td (Session state is not stored in server memory. Each client request carries an RFC) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 546.89 Td (7519 compliant JSON Web Token signed with a secret HMAC-SHA256 signature key. Tokens) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 533.39 Td (expire automatically after 30 days, minimizing session hijacking vulnerability.) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 513.39 Td (9.3 Data Projection & Input Sanitization) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 509.39 m 541.28 509.39 l S
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 485.89 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 485.89 Td (? Password Projection: All Mongoose user queries explicitly exclude the) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 472.39 Td (password field using .select\('-password'\).) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 456.89 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 456.89 Td (? Strict Schema Whitelisting: Mongoose schema filters prevent rogue client) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 443.39 Td (parameters from injecting unauthorized fields into documents.) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 427.89 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 427.89 Td (? CORS Restriction: Cross-Origin Resource Sharing is controlled via Express) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 414.39 Td (cors\(\) middleware.) Tj ET
+0.5 0.5 0.5 RG 0.5 w 54 40 m 541.28 40 l S
+0.5 0.5 0.5 rg BT /F1 8 Tf 54 30 Td (FreelanceHub - College Capstone Major Project Report) Tj ET
+BT /F2 8 Tf 490 30 Td (Page 14 of 18) Tj ET
+
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 32 0 R /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> /F3 << /Type /Font /Subtype /Type1 /BaseFont /Courier >> >> >> >>
+endobj
+32 0 obj
+<< /Length 5556 >>
+stream
+0.930 0.960 1.000 rg 0.180 0.450 0.750 RG 1.50 w 54.00 759.89 487.28 32.00 re B
+0.100 0.250 0.500 rg BT /F2 13 Tf 66.00 769.89 Td (CHAPTER 10: EXECUTION & SEEDING GUIDE) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 729.89 Td (10.1 Database Connection Options) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 725.89 m 541.28 725.89 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 702.39 Td (FreelanceHub supports two seamless database deployment models configured via) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 688.89 Td (server/.env:) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 671.39 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 671.39 Td (1. MongoDB Atlas \(Cloud - Free Tier\): Connects to free MongoDB Atlas cluster:) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 657.89 Td (MONGO_URI=mongodb+srv://<user>:<password>@cluster0.mongodb.net/freelance-app) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 642.39 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 642.39 Td (2. Local MongoDB Server: Connects to local MongoDB Community service:) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 628.89 Td (MONGO_URI=mongodb://localhost:27017/freelance-app) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 610.89 Td (10.2 MongoDB Atlas Configuration Checklist) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 606.89 m 541.28 606.89 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 583.39 Td (When using MongoDB Atlas, ensure two essential settings are configured in Atlas) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 569.89 Td (dashboard:) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 552.39 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 552.39 Td (a. Network Access: Under Security > Network Access, add IP address 0.0.0.0/0) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 538.89 Td (\(Allow Access from Anywhere\).) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 523.39 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 523.39 Td (b. Database User: Under Security > Database Access, verify the user has) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 509.89 Td (readWriteAnyDatabase permissions.) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 491.89 Td (10.3 Single-Command Database Seeder) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 487.89 m 541.28 487.89 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 464.39 Td (To populate the database with complete evaluation data with one command:) Tj ET
+0.970 0.980 0.990 rg 0.800 0.850 0.900 RG 1.00 w 54.00 416.39 487.28 40.00 re B
+0.200 0.450 0.800 rg 54.00 416.39 4.00 40.00 re f
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 444.39 Td (cd server) Tj ET
+0.100 0.200 0.300 rg BT /F3 8.5 Tf 68.00 432.39 Td (npm run seed) Tj ET
+0.900 0.930 0.970 rg 0.750 0.800 0.850 RG 1.00 w 54.00 384.39 485.00 22.00 re B
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 60.00 390.39 Td (Evaluation Account) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 155.00 390.39 Td (Email Address) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 295.00 390.39 Td (Password) Tj ET
+0.100 0.200 0.400 rg BT /F2 8.5 Tf 390.00 390.39 Td (Profile Purpose) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 364.39 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 370.39 Td (Platform Admin) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 370.39 Td (admin@freelancehub.com) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 295.00 370.39 Td (admin123) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 390.00 370.39 Td (Full metrics & account oversight) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 344.39 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 350.39 Td (Client 1) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 350.39 Td (client@techcorp.com) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 295.00 350.39 Td (client123) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 390.00 350.39 Td (Hiring client \(NexGen Tech\)) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 324.39 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 330.39 Td (Client 2) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 330.39 Td (sarah@designstudio.com) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 295.00 330.39 Td (sarah123) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 390.00 330.39 Td (Creative Agency Director) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 304.39 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 310.39 Td (Freelancer 1) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 310.39 Td (rahul@dev.io) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 295.00 310.39 Td (freelancer123) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 390.00 310.39 Td (Full-Stack MERN Developer) Tj ET
+1.000 1.000 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 284.39 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 290.39 Td (Freelancer 2) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 290.39 Td (priya@uiux.design) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 295.00 290.39 Td (priya123) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 390.00 290.39 Td (UI/UX Product Designer) Tj ET
+0.980 0.990 1.000 rg 0.850 0.880 0.900 RG 1.00 w 54.00 264.39 485.00 20.00 re B
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 60.00 270.39 Td (Freelancer 3) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 155.00 270.39 Td (alex@writer.com) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 295.00 270.39 Td (alex123) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 390.00 270.39 Td (Technical Content Author) Tj ET
+0.5 0.5 0.5 RG 0.5 w 54 40 m 541.28 40 l S
+0.5 0.5 0.5 rg BT /F1 8 Tf 54 30 Td (FreelanceHub - College Capstone Major Project Report) Tj ET
+BT /F2 8 Tf 490 30 Td (Page 15 of 18) Tj ET
+
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 34 0 R /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> /F3 << /Type /Font /Subtype /Type1 /BaseFont /Courier >> >> >> >>
+endobj
+34 0 obj
+<< /Length 5625 >>
+stream
+0.930 0.960 1.000 rg 0.180 0.450 0.750 RG 1.50 w 54.00 759.89 487.28 32.00 re B
+0.100 0.250 0.500 rg BT /F2 13 Tf 66.00 769.89 Td (CHAPTER 11: TOP 20 TECHNICAL VIVA QUESTIONS \(PART 1\)) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 732.39 Td (Below are the most critical viva-voce questions posed by university examiners,) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 718.89 Td (complete with model answers:) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 701.39 Td (Q1: What is the MERN stack and why was it chosen?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 683.89 Td (A: MERN stands for MongoDB, Express.js, React, and Node.js. It facilitates) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 670.39 Td (end-to-end JavaScript development across both client and server tiers. Its native) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 656.89 Td (JSON document exchange and non-blocking asynchronous event loop maximize performance) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 643.39 Td (and development velocity.) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 625.89 Td (Q2: How does JSON Web Token \(JWT\) authentication work in FreelanceHub?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 608.39 Td (A: Upon login, the server cryptographically signs a payload containing the user ID) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 594.89 Td (with a private secret key. The client stores this token in localStorage and attaches) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 581.39 Td (it via an Axios interceptor to the Authorization: Bearer <token> header for all) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 567.89 Td (protected route requests.) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 550.39 Td (Q3: Why choose MongoDB over traditional SQL databases for this project?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 532.89 Td (A: Freelance jobs and profiles possess dynamic structures \(variable skill arrays,) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 519.39 Td (proposal collections, varying client info\). MongoDB's document-oriented JSON model) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 505.89 Td (provides flexible schema agility without requiring alter table database migrations.) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 488.39 Td (Q4: What is BCrypt and what is the function of salt rounds?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 470.89 Td (A: BCrypt is an adaptive cryptographic hash function. Salt rounds \(configured to 10\)) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 457.39 Td (specify the computational difficulty of calculating the hash, effectively preventing) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 443.89 Td (pre-computed rainbow table and dictionary attacks.) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 426.39 Td (Q5: How does the proposal acceptance logic prevent race conditions?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 408.89 Td (A: In proposalController.js, accepting a bid sets the proposal to 'accepted',) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 395.39 Td (updates the Job status to 'in-progress', and executes Proposal.updateMany\(\) to) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 381.89 Td (atomically reject all competing bids on that job in a single database operation.) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 364.39 Td (Q6: How is the average star rating computed?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 346.89 Td (A: On each review submission, all reviews for the reviewee are queried, their) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 333.39 Td (ratings summed using reduce\(\), divided by total count, rounded to one decimal place,) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 319.89 Td (and saved in the User model.) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 302.39 Td (Q7: What is an Axios Interceptor?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 284.89 Td (A: An interceptor is middleware for HTTP requests. In src/utils/api.js, it) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 271.39 Td (automatically injects the current user's Bearer token into request headers before) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 257.89 Td (leaving the browser.) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 240.39 Td (Q8: What is the role of Mongoose in this project?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 222.89 Td (A: Mongoose is an Object Data Modeling \(ODM\) library that provides schema) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 209.39 Td (validation, type casting, query building, and relational population for MongoDB) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 195.89 Td (documents.) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 178.39 Td (Q9: What is React Context API and how is it used here?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 160.89 Td (A: AuthContext broadcasts user state, authentication status, login, register, and) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 147.39 Td (logout functions globally across the React tree without prop drilling.) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 129.89 Td (Q10: What are Protected Routes in React Router?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 112.39 Td (A: ProtectedRoute.jsx checks if user is logged in. If unauthenticated, it redirects) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 98.89 Td (to /login; otherwise, it renders the child route components via <Outlet />.) Tj ET
+0.5 0.5 0.5 RG 0.5 w 54 40 m 541.28 40 l S
+0.5 0.5 0.5 rg BT /F1 8 Tf 54 30 Td (FreelanceHub - College Capstone Major Project Report) Tj ET
+BT /F2 8 Tf 490 30 Td (Page 16 of 18) Tj ET
+
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 36 0 R /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> /F3 << /Type /Font /Subtype /Type1 /BaseFont /Courier >> >> >> >>
+endobj
+36 0 obj
+<< /Length 4661 >>
+stream
+0.930 0.960 1.000 rg 0.180 0.450 0.750 RG 1.50 w 54.00 759.89 487.28 32.00 re B
+0.100 0.250 0.500 rg BT /F2 13 Tf 66.00 769.89 Td (CHAPTER 11 \(CONT.\): VIVA QUESTIONS 11-20) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 732.39 Td (Q11: Why is Vite faster than Create React App \(CRA\)?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 714.89 Td (A: Vite uses native browser ES Modules \(ESM\) and compiles dependencies using esbuild) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 701.39 Td (\(written in Go\), providing instant server starts and sub-50ms Hot Module Replacement) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 687.89 Td (\(HMR\).) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 670.39 Td (Q12: How do you prevent duplicate bid submissions?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 652.89 Td (A: In proposalController.js, Proposal.findOne\({ job: jobId, freelancer: req.user.id) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 639.39 Td (}\) checks for an existing record before saving. If found, it returns HTTP 400 Bad) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 625.89 Td (Request.) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 608.39 Td (Q13: What HTTP status codes are implemented?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 590.89 Td (A: 200 \(Success\), 201 \(Created\), 400 \(Bad Request\), 401 \(Unauthorized\), 403) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 577.39 Td (\(Forbidden\), 404 \(Not Found\), and 500 \(Internal Server Error\).) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 559.89 Td (Q14: Explain the difference between POST and PUT HTTP methods.) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 542.39 Td (A: POST creates new resources \(e.g. POST /api/jobs, POST /api/proposals\), while PUT) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 528.89 Td (updates existing resources \(e.g. PUT /api/users/profile, PUT /api/jobs/:id/complete\).) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 511.39 Td (Q15: How does the admin cascade delete feature operate?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 493.89 Td (A: When an admin deletes a user, the controller executes Job.deleteMany\(\),) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 480.39 Td (Proposal.deleteMany\(\), and Review.deleteMany\(\) to eliminate orphaned records.) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 462.89 Td (Q16: What is CORS and how is it resolved in this project?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 445.39 Td (A: Cross-Origin Resource Sharing prevents unauthorized domains from accessing API) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 431.89 Td (resources. The backend uses the cors\(\) middleware, while Vite's development proxy) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 418.39 Td (maps /api to http://localhost:5000.) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 400.89 Td (Q17: What is the function of dotenv in Node.js?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 383.39 Td (A: dotenv loads environment variables from a private .env file into process.env,) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 369.89 Td (safeguarding secrets like database URIs and JWT encryption keys from public version) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 356.39 Td (control.) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 338.89 Td (Q18: How does the system handle database connection drops?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 321.39 Td (A: In server/config/db.js, connection errors are caught inside a try-catch block and) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 307.89 Td (log actionable troubleshooting instructions without crashing the process.) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 290.39 Td (Q19: How is UI responsiveness implemented?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 272.89 Td (A: Responsive grid and flex utility classes in Tailwind CSS adapt seamlessly across) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 259.39 Td (mobile \(<640px\), tablet \(768px\), and desktop \(>1024px\) viewports.) Tj ET
+0.100 0.250 0.550 rg BT /F2 9.5 Tf 54.00 241.89 Td (Q20: What are Mongoose Virtuals and Population?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 224.39 Td (A: Population automatically replaces referenced ObjectId foreign keys with the) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 210.89 Td (actual document data from another collection \(e.g. populating client details in) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 197.39 Td (jobs\).) Tj ET
+0.5 0.5 0.5 RG 0.5 w 54 40 m 541.28 40 l S
+0.5 0.5 0.5 rg BT /F1 8 Tf 54 30 Td (FreelanceHub - College Capstone Major Project Report) Tj ET
+BT /F2 8 Tf 490 30 Td (Page 17 of 18) Tj ET
+
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 38 0 R /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> /F3 << /Type /Font /Subtype /Type1 /BaseFont /Courier >> >> >> >>
+endobj
+38 0 obj
+<< /Length 4470 >>
+stream
+0.930 0.960 1.000 rg 0.180 0.450 0.750 RG 1.50 w 54.00 759.89 487.28 32.00 re B
+0.100 0.250 0.500 rg BT /F2 13 Tf 66.00 769.89 Td (CHAPTER 12: FUTURE SCOPE & CONCLUSION) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 729.89 Td (12.1 Future Enhancements) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 725.89 m 541.28 725.89 l S
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 702.39 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 702.39 Td (1. Real-Time Chat \(Socket.io\): Direct real-time messaging between clients and) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 688.89 Td (freelancers for instant requirement clarification.) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 673.39 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 673.39 Td (2. Payment Escrow Gateway: Automated milestone escrow funding using Stripe) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 659.89 Td (Connect or Razorpay API integration.) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 644.39 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 644.39 Td (3. AI Project Matcher: Vector embedding algorithms matching freelancer skill) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 630.89 Td (sets directly to posted project descriptions.) Tj ET
+0.200 0.450 0.800 rg BT /F2 11 Tf 66.00 615.39 Td (?) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 615.39 Td (4. File Storage Integration: AWS S3 / Cloudinary upload integration for) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 78.00 601.89 Td (design assets, project ZIP files, and PDF deliverables.) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 583.89 Td (12.2 Conclusion) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 579.89 m 541.28 579.89 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 556.39 Td (FreelanceHub successfully delivers a scalable, role-secured, and responsive) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 542.89 Td (freelancing marketplace platform utilizing the modern MERN stack. By integrating) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 529.39 Td (component-driven React 19 architecture, stateless JWT token authorization,) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 515.89 Td (deterministic bidding state machines, and dynamic reputation scoring, the system) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 502.39 Td (satisfies all major industry and academic requirements.) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 484.89 Td (The project provides a transparent, zero-commission alternative to legacy) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 471.39 Td (freelancing portals, making it an exemplary capstone project for university) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 54.00 457.89 Td (evaluation.) Tj ET
+0.150 0.350 0.650 rg BT /F2 11.5 Tf 54.00 437.89 Td (REFERENCES & BIBLIOGRAPHY) Tj ET
+0.800 0.850 0.900 RG 0.80 w 54.00 433.89 m 541.28 433.89 l S
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 54.00 411.39 Td (1. Elmasri, R., & Navathe, S. B. \(2015\). Fundamentals of Database Systems \(7th ed.\).) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 54.00 400.39 Td (Pearson.) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 54.00 385.39 Td (2. Banks, A., & Porcello, E. \(2020\). Learning React: Modern Patterns for Developing) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 54.00 374.39 Td (React Applications \(2nd ed.\). O'Reilly Media.) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 54.00 359.39 Td (3. Chodorow, K. \(2013\). MongoDB: The Definitive Guide \(2nd ed.\). O'Reilly Media.) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 54.00 344.39 Td (4. Brown, E. \(2019\). Web Development with Node and Express \(2nd ed.\). O'Reilly) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 54.00 333.39 Td (Media.) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 54.00 318.39 Td (5. Fielding, R. T. \(2000\). Architectural Styles and the Design of Network-based) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 54.00 307.39 Td (Software Architectures. Doctoral dissertation, UC Irvine.) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 54.00 292.39 Td (6. RFC 7519: JSON Web Token \(JWT\) Standard. Internet Engineering Task Force \(IETF\).) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 54.00 277.39 Td (7. React 19 Official Documentation. https://react.dev/) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.5 Tf 54.00 262.39 Td (8. Tailwind CSS Modern Framework Documentation. https://tailwindcss.com/) Tj ET
+0.5 0.5 0.5 RG 0.5 w 54 40 m 541.28 40 l S
+0.5 0.5 0.5 rg BT /F1 8 Tf 54 30 Td (FreelanceHub - College Capstone Major Project Report) Tj ET
+BT /F2 8 Tf 490 30 Td (Page 18 of 18) Tj ET
+
+endstream
+endobj
+xref
+0 39
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000232 00000 n 
+0000000534 00000 n 
+0000002450 00000 n 
+0000002752 00000 n 
+0000006038 00000 n 
+0000006340 00000 n 
+0000013131 00000 n 
+0000013434 00000 n 
+0000017891 00000 n 
+0000018195 00000 n 
+0000023118 00000 n 
+0000023422 00000 n 
+0000028788 00000 n 
+0000029092 00000 n 
+0000033724 00000 n 
+0000034028 00000 n 
+0000043502 00000 n 
+0000043806 00000 n 
+0000051711 00000 n 
+0000052015 00000 n 
+0000055823 00000 n 
+0000056127 00000 n 
+0000061104 00000 n 
+0000061408 00000 n 
+0000065651 00000 n 
+0000065955 00000 n 
+0000073227 00000 n 
+0000073531 00000 n 
+0000076583 00000 n 
+0000076887 00000 n 
+0000082496 00000 n 
+0000082800 00000 n 
+0000088478 00000 n 
+0000088782 00000 n 
+0000093496 00000 n 
+0000093800 00000 n 
+trailer
+<< /Size 39 /Root 1 0 R >>
+startxref
+98323
+%%EOF

@@ -4,12 +4,8 @@ const mongoose = require('mongoose');
 const connectDB = async () => {
     const uri = process.env.MONGO_URI || 'mongodb://localhost:27017/freelance-app';
     try {
-        const conn = await mongoose.connect(uri, {
-            useNewUrlParser: true,
-            useUnifiedTopology: true
-        });
-
-        console.log(`[Database] MongoDB Connected: ${conn.connection.host}`);
+        const conn = await mongoose.connect(uri);
+        console.log(`[Database] MongoDB Connected Successfully: ${conn.connection.host}`);
     } catch (error) {
         console.error('\n===============================================================');
         console.error(`[MongoDB Connection Notice]: ${error.message}`);
