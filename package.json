@@ -1,0 +1,12 @@
+{
+  "name": "freelancehub-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FreelanceHub MERN Full-Stack Marketplace",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "seed": "cd server && node seed.js"
+  }
+}

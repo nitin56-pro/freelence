@@ -2,6 +2,14 @@ const path = require('path');
 require('dotenv').config({ path: path.join(__dirname, '.env') });
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
+const dns = require('dns');
+
+// Fix Windows Node.js c-ares DNS resolution bug for MongoDB Atlas SRV records
+try {
+    dns.setServers(['8.8.8.8', '8.8.4.4', '1.1.1.1']);
+} catch (e) {
+    // fallback if custom DNS cannot be set
+}
 
 const User = require('./models/User');
 const Job = require('./models/Job');
