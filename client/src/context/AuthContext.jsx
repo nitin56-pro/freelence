@@ -55,7 +55,7 @@ const toDemoSession = (user) => {
 };
 
 const isBackendUnavailable = (error) =>
-  !error.response || error.response.status === 404;
+  !error.response || error.response.status === 404 || error.response.status >= 500;
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(() => {
