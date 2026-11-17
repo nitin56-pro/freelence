@@ -34,6 +34,11 @@ const Dashboard = () => {
     };
 
     if (user?.role) {
+      if (user.token?.startsWith('demo-token-')) {
+        setItems([]);
+        setLoading(false);
+        return;
+      }
       fetchData();
     }
   }, [user?.role]);
