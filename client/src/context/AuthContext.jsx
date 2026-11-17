@@ -55,7 +55,7 @@ const toDemoSession = (user) => {
 };
 
 const isBackendUnavailable = (error) =>
-  !error.response || error.response.status === 404 || error.response.status >= 500;
+  !error.response || error.response.status === 404;
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(() => {
@@ -70,18 +70,6 @@ export const AuthProvider = ({ children }) => {
 
   // Login function
   const login = async (email, password) => {
-    const demoUser = getDemoUsers().find(
-      (savedUser) => savedUser.email.toLowerCase() === email.toLowerCase() && savedUser.password === password
-    );
-
-    if (demoUser) {
-      const session = toDemoSession(demoUser);
-      localStorage.setItem('user', JSON.stringify(session));
-      setUser(session);
-      toast.success(`Welcome back, ${session.name}!`);
-      return true;
-    }
-
     try {
       // Call backend to login
       const res = await api.post('/auth/login', { email, password });
@@ -94,8 +82,19 @@ export const AuthProvider = ({ children }) => {
       return true;
     } catch (error) {
       if (isBackendUnavailable(error)) {
-        toast.error('Demo login failed. Use one of the demo accounts or sign up first.');
-        return false;
+        const demoUser = getDemoUsers().find(
+          (savedUser) =>
+            savedUser.email.toLowerCase() === email.toLowerCase() &&
+            savedUser.password === password
+        );
+
+        if (demoUser) {
+          const session = toDemoSession(demoUser);
+          localStorage.setItem('user', JSON.stringify(session));
+          setUser(session);
+          toast.success(`Welcome back, ${session.name}!`);
+          return true;
+        }
       }
       toast.error(error.response?.data?.message || 'Login failed. Please check your credentials.');
       return false;
