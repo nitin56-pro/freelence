@@ -36,7 +36,7 @@ const Footer = () => {
               <span>Academic Info</span>
             </h4>
             <p className="text-xs text-gray-400 leading-relaxed">
-              BCA / B.Tech Final Year Major Project.<br />
+              BCA Final Year Major Project.<br />
               Architecture: React 19, Node.js, Express, MongoDB.
             </p>
           </div>
