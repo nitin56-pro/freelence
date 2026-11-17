@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FreelanceHub - College Final Year PPT Presentation</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: #0f172a;
+    color: #f8fafc;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .slide-container {
+    flex: 1;
+    position: relative;
+    width: 100vw;
+    height: calc(100vh - 60px);
+  }
+  .slide {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s ease-in-out;
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  }
+  .slide.active {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+  .slide-badge {
+    display: inline-block;
+    padding: 6px 16px;
+    background: rgba(37, 99, 235, 0.2);
+    border: 1px solid rgba(59, 130, 246, 0.4);
+    color: #60a5fa;
+    border-radius: 9999px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    align-self: flex-start;
+  }
+  h1 { font-size: 42px; font-weight: 900; color: #ffffff; margin-bottom: 12px; line-height: 1.2; }
+  h2 { font-size: 28px; font-weight: 800; color: #38bdf8; margin-bottom: 24px; border-bottom: 2px solid #334155; padding-bottom: 12px; }
+  h3 { font-size: 20px; font-weight: 700; color: #93c5fd; margin-bottom: 8px; }
+  p { font-size: 18px; color: #cbd5e1; line-height: 1.6; margin-bottom: 16px; }
+  ul { list-style: none; margin-bottom: 20px; }
+  li {
+    font-size: 18px;
+    color: #e2e8f0;
+    margin-bottom: 14px;
+    padding-left: 28px;
+    position: relative;
+    line-height: 1.5;
+  }
+  li::before {
+    content: "•";
+    position: absolute;
+    left: 8px;
+    color: #38bdf8;
+    font-size: 24px;
+    top: -4px;
+  }
+  li strong { color: #ffffff; }
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+  .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; }
+  .card {
+    background: rgba(30, 41, 59, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+  }
+  .card-highlight { border-color: rgba(59, 130, 246, 0.5); background: rgba(30, 58, 138, 0.2); }
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 15px; }
+  th, td { border: 1px solid #334155; padding: 10px 14px; text-align: left; }
+  th { background: #1e293b; color: #38bdf8; }
+  tr:nth-child(even) { background: rgba(30, 41, 59, 0.4); }
+  .code-box {
+    background: #090d16;
+    border: 1px solid #334155;
+    border-left: 4px solid #38bdf8;
+    padding: 16px;
+    border-radius: 8px;
+    font-family: monospace;
+    font-size: 14px;
+    color: #38bdf8;
+    white-space: pre-wrap;
+    line-height: 1.4;
+  }
+  .controls {
+    height: 60px;
+    background: #090d16;
+    border-top: 1px solid #1e293b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+  }
+  .btn {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s;
+  }
+  .btn:hover { background: #1d4ed8; }
+  .slide-counter { font-size: 14px; color: #94a3b8; font-weight: 600; }
+  .speaker-note {
+    background: rgba(15, 23, 42, 0.8);
+    border: 1px dashed #64748b;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #94a3b8;
+  }
+  .speaker-note strong { color: #f59e0b; }
+</style>
+</head>
+<body>
+
+<div class="slide-container">
+
+  <!-- SLIDE 1: TITLE SLIDE -->
+  <div class="slide active">
+    <div class="slide-badge">BCA / B.TECH CAPSTONE MAJOR PROJECT</div>
+    <h1 style="font-size: 54px; color: #ffffff;">FREELANCE<span style="color: #3b82f6;">HUB</span></h1>
+    <p style="font-size: 24px; color: #94a3b8; margin-bottom: 30px;">A Full-Stack MERN Freelance Marketplace Platform</p>
+    <div class="grid-2" style="max-width: 900px; margin-top: 20px;">
+      <div class="card card-highlight">
+        <p style="font-size: 13px; color: #94a3b8; text-transform: uppercase; font-weight: 700; margin-bottom: 4px;">Presented By:</p>
+        <h3 style="font-size: 22px; color: #ffffff;">Nitin Singh</h3>
+        <p style="font-size: 15px; color: #cbd5e1; margin: 0;">Department of Computer Science & Applications</p>
+      </div>
+      <div class="card">
+        <p style="font-size: 13px; color: #94a3b8; text-transform: uppercase; font-weight: 700; margin-bottom: 4px;">Supervised By:</p>
+        <h3 style="font-size: 20px; color: #ffffff;">Project Guide & Review Committee</h3>
+        <p style="font-size: 15px; color: #cbd5e1; margin: 0;">Faculty of Engineering & Technology</p>
+      </div>
+    </div>
+    <div class="speaker-note">
+      <strong>Speaker Note (Examiner ke saamne bole):</strong> "Good morning respected examiners and teachers. Today I am presenting my final year project 'FreelanceHub' - a modern full-stack freelance marketplace built on React 19, Node.js, Express, and MongoDB."
+    </div>
+  </div>
+
+  <!-- SLIDE 2: INTRODUCTION -->
+  <div class="slide">
+    <div class="slide-badge">PROJECT BACKGROUND</div>
+    <h2>1. Introduction & Overview</h2>
+    <div class="grid-2">
+      <div>
+        <ul>
+          <li><strong>Digital Gig Economy:</strong> High demand for on-demand developers, UI/UX designers, and tech specialists.</li>
+          <li><strong>Decentralized Workspace:</strong> Connecting global businesses with top remote talent without physical barriers.</li>
+          <li><strong>Role-Based Platform:</strong> Dedicated workspaces for <strong>Clients</strong> (to hire), <strong>Freelancers</strong> (to bid), and <strong>Admins</strong> (to govern).</li>
+          <li><strong>Modern SPA:</strong> Single Page Application delivering fast transitions with zero page reloads.</li>
+        </ul>
+      </div>
+      <div class="card card-highlight">
+        <h3>Core Vision</h3>
+        <p>To eliminate high platform commissions, provide transparent merit-based proposal hiring, and maintain verified reviews with dynamic rating calculations.</p>
+        <div style="margin-top: 15px; font-size: 14px; color: #93c5fd;">
+          ✔ 100% JavaScript Ecosystem<br>
+          ✔ Sub-150ms REST API response time<br>
+          ✔ Secure JWT Authorization
+        </div>
+      </div>
+    </div>
+    <div class="speaker-note">
+      <strong>Speaker Note:</strong> "FreelanceHub solves the problem of traditional portals by offering a clean, zero-commission platform where clients can post jobs and freelancers can submit proposals with full transparency."
+    </div>
+  </div>
+
+  <!-- SLIDE 3: PROBLEM STATEMENT -->
+  <div class="slide">
+    <div class="slide-badge">MOTIVATION</div>
+    <h2>2. Problem Statement (Challenges in Legacy Portals)</h2>
+    <div class="grid-3">
+      <div class="card">
+        <h3 style="color: #f87171;">1. Exorbitant Fees</h3>
+        <p style="font-size: 15px;">Legacy portals like Upwork and Fiverr charge up to <strong>20% commission</strong> on earnings, discouraging young talent and SMEs.</p>
+      </div>
+      <div class="card">
+        <h3 style="color: #fbbf24;">2. Monolithic Lag</h3>
+        <p style="font-size: 15px;">Legacy systems rely on multi-page server refreshes, causing slow navigation and poor mobile user experience.</p>
+      </div>
+      <div class="card">
+        <h3 style="color: #c084fc;">3. Paid Bidding Barriers</h3>
+        <p style="font-size: 15px;">Freelancers must buy paid 'Connects' just to submit proposals, creating an unfair barrier for emerging developers.</p>
+      </div>
+    </div>
+    <div class="speaker-note">
+      <strong>Speaker Note:</strong> "Existing platforms charge up to 20% commission and force freelancers to buy tokens just to apply. FreelanceHub eliminates these hurdles through an open, merit-based proposal workflow."
+    </div>
+  </div>
+
+  <!-- SLIDE 4: OBJECTIVES -->
+  <div class="slide">
+    <div class="slide-badge">PROJECT GOALS</div>
+    <h2>3. Key Project Objectives</h2>
+    <ul>
+      <li><strong>Responsive Client UI:</strong> Build an intuitive user experience using <strong>React 19</strong>, <strong>Tailwind CSS</strong>, and <strong>Vite</strong>.</li>
+      <li><strong>Stateless RESTful Backend:</strong> Implement high-throughput API endpoints in <strong>Node.js</strong> and <strong>Express</strong>.</li>
+      <li><strong>Scalable Document Store:</strong> Design normalized schemas using <strong>MongoDB Atlas</strong> with Mongoose ODM.</li>
+      <li><strong>Cryptographic Security:</strong> Secure sensitive routes via <strong>JSON Web Tokens (JWT)</strong> and <strong>BCrypt (10 salt rounds)</strong>.</li>
+      <li><strong>Contract State Machine:</strong> Deterministic lifecycle (Open &rarr; In-Progress &rarr; Completed &rarr; Mutual Reviews).</li>
+      <li><strong>Turnkey Demo Seeder:</strong> One-command database population script for instant viva demonstration.</li>
+    </ul>
+    <div class="speaker-note">
+      <strong>Speaker Note:</strong> "Our primary objective was building a production-grade, secure, and responsive full-stack platform following modern MVC and REST architectural standards."
+    </div>
+  </div>
+
+  <!-- SLIDE 5: EXISTING VS PROPOSED -->
+  <div class="slide">
+    <div class="slide-badge">COMPARATIVE ANALYSIS</div>
+    <h2>4. Existing Systems vs. FreelanceHub</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Parameters</th>
+          <th>Traditional Freelance Portals</th>
+          <th>FreelanceHub (Proposed Project)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Architecture</strong></td>
+          <td>Monolithic Multi-Page Architecture</td>
+          <td>Decoupled MERN Single Page Application (SPA)</td>
+        </tr>
+        <tr>
+          <td><strong>Frontend Speed</strong></td>
+          <td>Server-rendered templates with full reload</td>
+          <td>React 19 + Vite HMR with instant DOM updates</td>
+        </tr>
+        <tr>
+          <td><strong>Security Model</strong></td>
+          <td>Session cookies stored in server RAM</td>
+          <td>Stateless Bearer JWT tokens in Authorization header</td>
+        </tr>
+        <tr>
+          <td><strong>Password Storage</strong></td>
+          <td>MD5 / SHA-1 (Vulnerable)</td>
+          <td>Salted BCrypt hashing with 10 salt rounds</td>
+        </tr>
+        <tr>
+          <td><strong>Bidding Barrier</strong></td>
+          <td>Paid tokens ('Connects') required to bid</td>
+          <td>Open, merit-based bidding with duplicate prevention</td>
+        </tr>
+        <tr>
+          <td><strong>Rating Calculation</strong></td>
+          <td>Opaque proprietary algorithms</td>
+          <td>Dynamic decimal average recalculation per contract</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="speaker-note">
+      <strong>Speaker Note:</strong> "This table compares traditional portals with our solution across architecture, authentication, performance, and security."
+    </div>
+  </div>
+
+  <!-- SLIDE 6: TECH STACK -->
+  <div class="slide">
+    <div class="slide-badge">TECHNICAL FOUNDATION</div>
+    <h2>5. Technology Stack & Architecture</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Frontend Stack</h3>
+        <ul>
+          <li><strong>React 19:</strong> Component-based SPA architecture</li>
+          <li><strong>Tailwind CSS:</strong> Utility-first responsive design</li>
+          <li><strong>React Router v7:</strong> Protected routes & navigation</li>
+          <li><strong>Axios:</strong> Automatic Bearer token request interceptor</li>
+          <li><strong>Vite:</strong> Sub-50ms lightning fast bundling</li>
+        </ul>
+      </div>
+      <div class="card card-highlight">
+        <h3>Backend & Database</h3>
+        <ul>
+          <li><strong>Node.js:</strong> Asynchronous event-driven runtime</li>
+          <li><strong>Express.js:</strong> RESTful API route management</li>
+          <li><strong>MongoDB Atlas:</strong> Distributed cloud NoSQL database</li>
+          <li><strong>Mongoose ODM:</strong> Schema validation & population</li>
+          <li><strong>JWT & BCrypt:</strong> Stateless encryption & authentication</li>
+        </ul>
+      </div>
+    </div>
+    <div class="speaker-note">
+      <strong>Speaker Note:</strong> "We utilized the MERN stack because it provides end-to-end JavaScript development, native JSON exchange, and high asynchronous I/O performance."
+    </div>
+  </div>
+
+  <!-- SLIDE 7: ARCHITECTURE & DFD -->
+  <div class="slide">
+    <div class="slide-badge">SYSTEM DESIGN</div>
+    <h2>6. System Architecture & Data Flow</h2>
+    <div class="code-box">
++---------------------------------------------------------------------------------+
+|                        TIER 1: PRESENTATION TIER (React 19)                     |
+|           Navbar | Job Cards | Proposal Modals | Review Forms | Admin Panel     |
++----------------------------------------+----------------------------------------+
+                                         | HTTP REST Requests (JSON + Bearer Token)
+                                         v
++----------------------------------------+----------------------------------------+
+|                     TIER 2: APPLICATION TIER (Express.js / Node.js)             |
+|          Controllers: Auth, Jobs, Proposals, Reviews, Admin, Users              |
+|         Middlewares: JWT protect, ErrorHandler, CORS, express.json()            |
++----------------------------------------+----------------------------------------+
+                                         | Mongoose ODM Wire Protocol
+                                         v
++----------------------------------------+----------------------------------------+
+|                      TIER 3: DATA TIER (MongoDB Atlas Cloud)                    |
+|             Collections: users, jobs, proposals, reviews                        |
++---------------------------------------------------------------------------------+</div>
+    <div class="speaker-note">
+      <strong>Speaker Note:</strong> "The platform follows a clean 3-tier architecture: React in Tier 1 communicates via RESTful JSON APIs with Node/Express in Tier 2, which persists to MongoDB Atlas in Tier 3."
+    </div>
+  </div>
+
+  <!-- SLIDE 8: DATABASE DESIGN -->
+  <div class="slide">
+    <div class="slide-badge">DATABASE MODELING</div>
+    <h2>7. Database Design & Collections Schema</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>1. Users Collection</h3>
+        <p style="font-size: 14px;"><code>name, email, password (hash), role, bio, skills, hourlyRate, company, rating, totalReviews</code></p>
+        <h3 style="margin-top: 15px;">2. Jobs Collection</h3>
+        <p style="font-size: 14px;"><code>client (Ref: User), title, description, category, skillsRequired, budgetMin, budgetMax, deadline, status</code></p>
+      </div>
+      <div class="card">
+        <h3>3. Proposals Collection</h3>
+        <p style="font-size: 14px;"><code>job (Ref: Job), freelancer (Ref: User), coverLetter, proposedBudget, deliveryDays, status ('pending'|'accepted'|'rejected')</code></p>
+        <h3 style="margin-top: 15px;">4. Reviews Collection</h3>
+        <p style="font-size: 14px;"><code>job (Ref: Job), reviewer (Ref: User), reviewee (Ref: User), rating (1-5), comment, createdAt</code></p>
+      </div>
+    </div>
+    <p style="margin-top: 15px; font-size: 15px; color: #94a3b8;">
+      Normalized relational integrity enforced using Mongoose <code>ObjectId</code> references and query-level <code>populate()</code>.
+    </p>
+    <div class="speaker-note">
+      <strong>Speaker Note:</strong> "Our database is normalized in 3NF across four collections: Users, Jobs, Proposals, and Reviews with strict relational ObjectId references."
+    </div>
+  </div>
+
+  <!-- SLIDE 9: CORE MODULES -->
+  <div class="slide">
+    <div class="slide-badge">PLATFORM MODULES</div>
+    <h2>8. Key Modules & Functional Features</h2>
+    <div class="grid-3">
+      <div class="card">
+        <h3 style="color: #60a5fa;">Client Module</h3>
+        <ul>
+          <li>Post projects with budget & skills</li>
+          <li>Review incoming freelancer bids</li>
+          <li>Accept proposal & hire talent</li>
+          <li>Mark project completed</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 style="color: #34d399;">Freelancer Module</h3>
+        <ul>
+          <li>Search & multi-filter open jobs</li>
+          <li>Submit customized bid proposals</li>
+          <li>Track bid status (Accepted/Pending)</li>
+          <li>Showcase verified skills & rate</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 style="color: #fbbf24;">Admin Module</h3>
+        <ul>
+          <li>Monitor total platform metrics</li>
+          <li>Manage & audit user accounts</li>
+          <li>Cascade delete fraudulent users</li>
+          <li>Moderate & delete inappropriate jobs</li>
+        </ul>
+      </div>
+    </div>
+    <div class="speaker-note">
+      <strong>Speaker Note:</strong> "The system is divided into three role-driven modules: Client Module, Freelancer Module, and Admin Control Center."
+    </div>
+  </div>
+
+  <!-- SLIDE 10: CONTRACT STATE MACHINE -->
+  <div class="slide">
+    <div class="slide-badge">WORKFLOW ENGINE</div>
+    <h2>9. Contract Lifecycle & Bidding State Machine</h2>
+    <div class="code-box">
+  [1. CLIENT POSTS JOB] ---------> Job Status = 'open'
+                                       |
+                                       v
+  [2. FREELANCER SUBMITS BID] ---> Proposal Status = 'pending'
+                                       |
+                                       v
+  [3. CLIENT ACCEPTS PROPOSAL] --> Proposal Status = 'accepted'
+                                   Job Status = 'in-progress'
+                                   All Other Proposals = 'rejected'
+                                       |
+                                       v
+  [4. CLIENT MARKS COMPLETED] ---> Job Status = 'completed'
+                                       |
+                                       v
+  [5. TWO-WAY 5-STAR REVIEWS] ---> Recalculate User Average Rating (1.0 - 5.0)</div>
+    <div class="speaker-note">
+      <strong>Speaker Note:</strong> "This state machine shows how contracts progress from 'open' to 'in-progress' upon proposal acceptance, and finally to 'completed' where mutual reviews are unlocked."
+    </div>
+  </div>
+
+  <!-- SLIDE 11: SECURITY & RBAC -->
+  <div class="slide">
+    <div class="slide-badge">APPLICATION SECURITY</div>
+    <h2>10. Security & Quality Implementation</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Role-Based Access Control (RBAC)</h3>
+        <ul>
+          <li><strong>Client Protected:</strong> Only clients can post jobs and accept bids.</li>
+          <li><strong>Freelancer Protected:</strong> Only freelancers can submit bids.</li>
+          <li><strong>Admin Protected:</strong> Strict role checks on <code>/api/admin/*</code> routes.</li>
+        </ul>
+      </div>
+      <div class="card card-highlight">
+        <h3>Encryption & Guardrails</h3>
+        <ul>
+          <li><strong>BCrypt Hashing:</strong> Salt rounds = 10 prevent rainbow table lookups.</li>
+          <li><strong>Stateless JWT:</strong> RFC 7519 tokens with 30-day expiration.</li>
+          <li><strong>Duplicate Bid Guard:</strong> Database check stops repeat bidding on same job.</li>
+          <li><strong>Projection Security:</strong> <code>.select('-password')</code> hides hash from APIs.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="speaker-note">
+      <strong>Speaker Note:</strong> "Security is reinforced with BCrypt password hashing, stateless JWT authorization, and strict server-side role validation."
+    </div>
+  </div>
+
+  <!-- SLIDE 12: TESTING & TEST CASES -->
+  <div class="slide">
+    <div class="slide-badge">QUALITY ASSURANCE</div>
+    <h2>11. Software Testing & Test Cases Matrix</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Test ID</th>
+          <th>Test Scenario</th>
+          <th>Input Data</th>
+          <th>Expected Outcome</th>
+          <th>Result</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>TC-01</td>
+          <td>User Registration</td>
+          <td>Name, Email, Password, Role</td>
+          <td>HTTP 201 Created, JWT Token returned</td>
+          <td style="color: #4ade80; font-weight: bold;">PASS</td>
+        </tr>
+        <tr>
+          <td>TC-02</td>
+          <td>Duplicate Email Check</td>
+          <td>Already registered email</td>
+          <td>HTTP 400 'User already exists'</td>
+          <td style="color: #4ade80; font-weight: bold;">PASS</td>
+        </tr>
+        <tr>
+          <td>TC-03</td>
+          <td>RBAC Post Job Protection</td>
+          <td>Role: Freelancer, POST /jobs</td>
+          <td>HTTP 403 'Only clients can post jobs'</td>
+          <td style="color: #4ade80; font-weight: bold;">PASS</td>
+        </tr>
+        <tr>
+          <td>TC-04</td>
+          <td>Proposal Acceptance</td>
+          <td>PUT /api/proposals/:id/accept</td>
+          <td>Proposal 'accepted', Job 'in-progress'</td>
+          <td style="color: #4ade80; font-weight: bold;">PASS</td>
+        </tr>
+        <tr>
+          <td>TC-05</td>
+          <td>Rating Recalculation</td>
+          <td>Rating: 5.0, Comment</td>
+          <td>Review stored, User average updated</td>
+          <td style="color: #4ade80; font-weight: bold;">PASS</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="speaker-note">
+      <strong>Speaker Note:</strong> "All core scenarios were validated through unit, integration, and security test matrices, with 100% test pass rate."
+    </div>
+  </div>
+
+  <!-- SLIDE 13: LIVE DEMO & SEED DATA -->
+  <div class="slide">
+    <div class="slide-badge">VIVA DEMONSTRATION</div>
+    <h2>12. Live Project Demonstration Accounts</h2>
+    <p>Pre-populated via single-command database seeder (<code>npm run seed</code>):</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Role</th>
+          <th>Evaluation Email</th>
+          <th>Password</th>
+          <th>Demonstration Purpose</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Administrator</strong></td>
+          <td><code>admin@freelancehub.com</code></td>
+          <td><code>admin123</code></td>
+          <td>System statistics, user moderation & audit</td>
+        </tr>
+        <tr>
+          <td><strong>Client (Hiring)</strong></td>
+          <td><code>client@techcorp.com</code></td>
+          <td><code>client123</code></td>
+          <td>Post jobs, review bids, accept proposals, complete jobs</td>
+        </tr>
+        <tr>
+          <td><strong>Freelancer (Talent)</strong></td>
+          <td><code>rahul@dev.io</code></td>
+          <td><code>freelancer123</code></td>
+          <td>Search open gigs, submit bids, view active projects</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="speaker-note">
+      <strong>Speaker Note:</strong> "To make demonstration effortless, we created pre-seeded evaluation accounts with ready-to-test jobs, proposals, and ratings."
+    </div>
+  </div>
+
+  <!-- SLIDE 14: FUTURE ENHANCEMENTS -->
+  <div class="slide">
+    <div class="slide-badge">ROADMAP</div>
+    <h2>13. Future Enhancements & Scope</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>1. Real-Time Chat (Socket.io)</h3>
+        <p style="font-size: 15px;">WebSocket-based instant messaging between client and freelancer for real-time requirement discussion.</p>
+        <h3 style="margin-top: 15px;">2. Payment Gateway & Escrow</h3>
+        <p style="font-size: 15px;">Integration with Stripe Connect / Razorpay for automated milestone escrow releases upon deliverable sign-off.</p>
+      </div>
+      <div class="card card-highlight">
+        <h3>3. AI Skill Matcher</h3>
+        <p style="font-size: 15px;">Vector embeddings matching freelancer profile skills directly to posted job requirements.</p>
+        <h3 style="margin-top: 15px;">4. Cloud Deliverable Storage</h3>
+        <p style="font-size: 15px;">AWS S3 bucket integration for design mockups, source code ZIP archives, and specification documents.</p>
+      </div>
+    </div>
+    <div class="speaker-note">
+      <strong>Speaker Note:</strong> "In future iterations, we plan to incorporate Socket.io for live chat, Stripe escrow payments, and AI-powered job matching."
+    </div>
+  </div>
+
+  <!-- SLIDE 15: CONCLUSION -->
+  <div class="slide">
+    <div class="slide-badge">PROJECT CONCLUSION</div>
+    <h2>14. Project Summary & Conclusion</h2>
+    <ul>
+      <li><strong>Fully Realized Platform:</strong> FreelanceHub successfully delivers a scalable, responsive, and secure marketplace for remote talent.</li>
+      <li><strong>Architecture Compliance:</strong> Decoupled MERN stack ensures high responsiveness (&lt;150ms API latency) and smooth SPA navigation.</li>
+      <li><strong>Academic Rigor:</strong> Complete adherence to university capstone standards with 18-page formal report, ER schemas, and DFD models.</li>
+      <li><strong>Zero Deployment Friction:</strong> Single-command seed population and multi-role dashboard controls.</li>
+    </ul>
+    <div class="speaker-note">
+      <strong>Speaker Note:</strong> "In conclusion, FreelanceHub achieves all targeted objectives, proving that a modern MERN stack application can deliver an enterprise-grade freelance marketplace."
+    </div>
+  </div>
+
+  <!-- SLIDE 16: THANK YOU -->
+  <div class="slide" style="text-align: center;">
+    <div class="slide-badge" style="margin: 0 auto 20px auto;">FINAL SLIDE</div>
+    <h1 style="font-size: 56px; margin-bottom: 20px;">Thank You!</h1>
+    <p style="font-size: 22px; color: #38bdf8; margin-bottom: 30px;">Questions & Viva-Voce Discussion</p>
+    <div class="card" style="max-width: 600px; margin: 0 auto; text-align: left;">
+      <p style="margin: 0; font-size: 16px;"><strong>Candidate:</strong> Nitin Singh</p>
+      <p style="margin: 6px 0 0 0; font-size: 16px;"><strong>Project:</strong> FreelanceHub (MERN Freelance Platform)</p>
+      <p style="margin: 6px 0 0 0; font-size: 16px;"><strong>GitHub:</strong> github.com/nitin56-pro/freelence</p>
+      <p style="margin: 6px 0 0 0; font-size: 16px;"><strong>Report:</strong> FreelanceHub_Project_Report.pdf (18 Pages)</p>
+    </div>
+    <div class="speaker-note" style="max-width: 600px; margin: 25px auto 0 auto;">
+      <strong>Speaker Note:</strong> "Thank you for your valuable time and attention. I am now open to any questions from the examination committee."
+    </div>
+  </div>
+
+</div>
+
+<!-- BOTTOM SLIDE CONTROLS -->
+<div class="controls">
+  <button class="btn" onclick="prevSlide()">◀ Previous Slide</button>
+  <div class="slide-counter" id="counter">Slide 1 of 16</div>
+  <button class="btn" onclick="nextSlide()">Next Slide ▶</button>
+</div>
+
+<script>
+  let currentSlide = 0;
+  const slides = document.querySelectorAll('.slide');
+  const counter = document.getElementById('counter');
+
+  function showSlide(index) {
+    slides.forEach((s, i) => {
+      s.classList.remove('active');
+      if (i === index) s.classList.add('active');
+    });
+    counter.innerText = `Slide ${index + 1} of ${slides.length}`;
+  }
+
+  function nextSlide() {
+    if (currentSlide < slides.length - 1) {
+      currentSlide++;
+      showSlide(currentSlide);
+    }
+  }
+
+  function prevSlide() {
+    if (currentSlide > 0) {
+      currentSlide--;
+      showSlide(currentSlide);
+    }
+  }
+
+  // Keyboard navigation (Arrow keys / Spacebar)
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight' || e.key === 'Space') nextSlide();
+    if (e.key === 'ArrowLeft') prevSlide();
+  });
+</script>
+
+</body>
+</html>

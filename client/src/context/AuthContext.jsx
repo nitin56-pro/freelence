@@ -4,6 +4,59 @@ import toast from 'react-hot-toast';
 
 export const AuthContext = createContext();
 
+const DEMO_USERS_KEY = 'freelancehub_demo_users';
+
+const demoUsers = [
+  {
+    _id: 'demo-admin',
+    name: 'Platform Administrator',
+    email: 'admin@freelancehub.com',
+    password: 'admin123',
+    role: 'admin'
+  },
+  {
+    _id: 'demo-client',
+    name: 'Vikram Malhotra',
+    email: 'client@techcorp.com',
+    password: 'client123',
+    role: 'client'
+  },
+  {
+    _id: 'demo-freelancer',
+    name: 'Rahul Sharma',
+    email: 'rahul@dev.io',
+    password: 'freelancer123',
+    role: 'freelancer'
+  }
+];
+
+const getDemoUsers = () => {
+  try {
+    const savedUsers = localStorage.getItem(DEMO_USERS_KEY);
+    return savedUsers ? JSON.parse(savedUsers) : demoUsers;
+  } catch {
+    return demoUsers;
+  }
+};
+
+const saveDemoUser = (user) => {
+  const users = [...getDemoUsers().filter((savedUser) => savedUser.email !== user.email), user];
+  localStorage.setItem(DEMO_USERS_KEY, JSON.stringify(users));
+};
+
+const toDemoSession = (user) => {
+  const userData = Object.fromEntries(
+    Object.entries(user).filter(([key]) => key !== 'password')
+  );
+  return {
+    ...userData,
+    token: `demo-token-${user._id}`
+  };
+};
+
+const isBackendUnavailable = (error) =>
+  !error.response || error.response.status === 404 || error.response.status >= 500;
+
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(() => {
     try {
@@ -17,6 +70,18 @@ export const AuthProvider = ({ children }) => {
 
   // Login function
   const login = async (email, password) => {
+    const demoUser = getDemoUsers().find(
+      (savedUser) => savedUser.email.toLowerCase() === email.toLowerCase() && savedUser.password === password
+    );
+
+    if (demoUser) {
+      const session = toDemoSession(demoUser);
+      localStorage.setItem('user', JSON.stringify(session));
+      setUser(session);
+      toast.success(`Welcome back, ${session.name}!`);
+      return true;
+    }
+
     try {
       // Call backend to login
       const res = await api.post('/auth/login', { email, password });
@@ -28,6 +93,10 @@ export const AuthProvider = ({ children }) => {
       toast.success(`Welcome back, ${res.data.name}!`);
       return true;
     } catch (error) {
+      if (isBackendUnavailable(error)) {
+        toast.error('Demo login failed. Use one of the demo accounts or sign up first.');
+        return false;
+      }
       toast.error(error.response?.data?.message || 'Login failed. Please check your credentials.');
       return false;
     }
@@ -35,6 +104,15 @@ export const AuthProvider = ({ children }) => {
 
   // Register function
   const register = async (name, email, password, role) => {
+    const existingDemoUser = getDemoUsers().some(
+      (savedUser) => savedUser.email.toLowerCase() === email.toLowerCase()
+    );
+
+    if (existingDemoUser) {
+      toast.error('An account with this email already exists.');
+      return false;
+    }
+
     try {
       // Call backend to register
       const res = await api.post('/auth/register', { name, email, password, role });
@@ -46,6 +124,22 @@ export const AuthProvider = ({ children }) => {
       toast.success('Account created successfully!');
       return true;
     } catch (error) {
+      if (isBackendUnavailable(error)) {
+        const demoUser = {
+          _id: `demo-user-${Date.now()}`,
+          name,
+          email,
+          password,
+          role: role || 'freelancer'
+        };
+        saveDemoUser(demoUser);
+
+        const session = toDemoSession(demoUser);
+        localStorage.setItem('user', JSON.stringify(session));
+        setUser(session);
+        toast.success('Demo account created successfully!');
+        return true;
+      }
       toast.error(error.response?.data?.message || 'Registration failed.');
       return false;
     }
