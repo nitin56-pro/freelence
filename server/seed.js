@@ -44,12 +44,12 @@ const seedData = async () => {
 
         console.log('Creating demo users...');
         const adminUser = await User.create({
-            name: 'Platform Administrator',
-            email: 'admin@freelancehub.com',
+            name: 'Nitin Singh',
+            email: 'nitinsinghc74@gmail.com',
             password: adminPass,
             role: 'admin',
-            bio: 'System Administrator with full platform monitoring privileges.',
-            location: 'New Delhi, India'
+            bio: 'Founder, Platform Administrator & Lead System Architect',
+            location: 'India'
         });
 
         const client1 = await User.create({
@@ -238,7 +238,7 @@ const seedData = async () => {
         console.log('Demo Seed Data Successfully Populated!');
         console.log('======================================================');
         console.log('Test Accounts Available for Evaluation:');
-        console.log('1. Admin:      admin@freelancehub.com   / admin123');
+        console.log('1. Admin:      nitinsinghc74@gmail.com  (Nitin Singh)');
         console.log('2. Client:     client@techcorp.com      / client123');
         console.log('3. Client:     sarah@designstudio.com   / sarah123');
         console.log('4. Freelancer: rahul@dev.io             / freelancer123');

@@ -9,9 +9,8 @@ const DEMO_USERS_KEY = 'freelancehub_demo_users';
 const demoUsers = [
   {
     _id: 'demo-admin',
-    name: 'Platform Administrator',
-    email: 'admin@freelancehub.com',
-    password: 'admin123',
+    name: 'Nitin Singh',
+    email: 'nitinsinghc74@gmail.com',
     role: 'admin'
   },
   {

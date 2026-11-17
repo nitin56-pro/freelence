@@ -48,10 +48,12 @@ const Login = () => {
           <div className="grid grid-cols-3 gap-2">
             <button
               type="button"
-              onClick={() => fillCredentials('admin@freelancehub.com', 'admin123')}
+              onClick={() => {
+                setEmail('nitinsinghc74@gmail.com');
+              }}
               className="py-1.5 px-2 bg-white hover:bg-blue-100 text-[11px] font-bold text-amber-800 rounded-lg border border-blue-200 shadow-2xs transition"
             >
-              Admin
+              Admin (Nitin)
             </button>
             <button
               type="button"
