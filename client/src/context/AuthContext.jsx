@@ -9,7 +9,7 @@ const DEMO_USERS_KEY = 'freelancehub_demo_users';
 const demoUsers = [
   {
     _id: 'demo-admin',
-    name: 'Nitin Singh',
+    name: 'Admin',
     email: 'nitinsinghc74@gmail.com',
     role: 'admin'
   },

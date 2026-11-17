@@ -50,10 +50,11 @@ const Login = () => {
               type="button"
               onClick={() => {
                 setEmail('nitinsinghc74@gmail.com');
+                setPassword('');
               }}
               className="py-1.5 px-2 bg-white hover:bg-blue-100 text-[11px] font-bold text-amber-800 rounded-lg border border-blue-200 shadow-2xs transition"
             >
-              Admin (Nitin)
+              Admin
             </button>
             <button
               type="button"
